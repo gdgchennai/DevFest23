@@ -205,7 +205,7 @@ export const schedules: Day[] = [
 	{
 		date: 'Dec 2',
 		dateTime: '2022-04-06',
-		track: 'Track 1',
+		track: 'Track 2',
 		summary: 'We close out the event previewing new techniques that are still in development.',
 		timeslots: [
 			{
