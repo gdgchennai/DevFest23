@@ -10,5 +10,13 @@
 	</h1>
 	<p class="text-center max-w-lg">Your Voice, Your Stage––Let's Talk Innovation!</p>
 
-	<PillButton label="Submit your talk" />
+	<PillButton
+		label="Submit your talk"
+		on:click={() => {
+			window.open(
+				'https://docs.google.com/forms/d/e/1FAIpQLSfqUAAZew6k9TTkETItNM1HqqwhPc_q-J9p-pv_jlftaQpIYA/viewform',
+				'_blank'
+			);
+		}}
+	/>
 </section>

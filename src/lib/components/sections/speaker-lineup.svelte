@@ -1,7 +1,11 @@
-<script>
+<script lang="ts">
 	import { schedules } from '$lib/data/data';
 	import PillButton from '$lib/components/pill-button.svelte';
 	import TimeSlots from '$lib/components/time-slots.svelte';
+	import { clsx } from '$lib/utils';
+
+	let tabs = ['Day 1', 'Day 2'];
+	let active_tab = 'Day 1';
 </script>
 
 <section id="speaker-lineup" class="flex flex-col gap-6 place-items-center h-auto">
@@ -15,7 +19,23 @@
 		learn to hack on Android, Chrome and Web while you are at it.
 	</p>
 
-	<PillButton label="Get your tickets" />
+	<div id="tabs" class="sticky top-20 left-0 border border-gray-100 w-fit rounded-full bg-gray-100">
+		{#each tabs as item}
+			<button
+				class={clsx(
+					active_tab === item
+						? 'bg-white hover:shadow-lg text-gray-900 font-medium py-2 px-6 rounded-full m-2'
+						: 'hover:bg-gray-100 hover:rounded-full text-gray-600 font-medium py-2 px-4'
+				)}
+				class:active={active_tab === item}
+				on:click={() => {
+					active_tab = item;
+				}}
+			>
+				{item}
+			</button>
+		{/each}
+	</div>
 
 	<div class="flex flex-col md:flex-row">
 		{#each schedules as schedule, i}
