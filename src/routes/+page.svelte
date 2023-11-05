@@ -103,7 +103,7 @@
 			class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-2 lg:columns-2 [&>img:not(:first-child)]:mt-8 place-items-center place-content-center"
 		>
 			{#each memories as memory}
-				<img src={memory.image} alt={memory.title} class="rounded-2xl mt-6" />
+				<img src={memory.image} alt={memory.title} class="rounded-2xl mt-6 bg-white" />
 			{/each}
 		</div>
 	</section>
