@@ -9,7 +9,7 @@
 	role="list"
 	class={clsx('space-y-8 bg-white/60 px-10 py-14 text-center shadow-xl shadow-blue-900/5')}
 >
-	<h1 class="uppercase font-semibold tracking-wide">{track}</h1>
+	<h1 class="uppercase font-semibold tracking-wide text-orange-500">{track}</h1>
 
 	{#each day.timeslots as timeslot, i}
 		<li
