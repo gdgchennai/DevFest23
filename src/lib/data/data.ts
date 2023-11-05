@@ -56,23 +56,23 @@ export const schedules: Day[] = [
 		date: 'Dec 1',
 		dateTime: '2022-04-04',
 		track: 'Track 1',
-		summary: 'The first day of the conference is focused on dark patterns for ecommerce.',
+		summary: 'The first day of the conference is focused on AI.',
 		timeslots: [
 			{
-				name: 'Steven McHail',
-				description: 'Not so one-time payments',
+				name: 'Ravi Sharma',
+				description: 'AI in Healthcare',
 				start: '9:00AM',
 				end: '10:00AM'
 			},
 			{
-				name: 'Jaquelin Isch',
-				description: 'The finer print',
+				name: 'Priya Gupta',
+				description: 'AI in Finance',
 				start: '10:00AM',
 				end: '11:00AM'
 			},
 			{
-				name: 'Dianne Guilianelli',
-				description: 'Post-purchase blackmail',
+				name: 'Vijay Kumar',
+				description: 'AI in Transportation',
 				start: '11:00AM',
 				end: '12:00PM'
 			},
@@ -83,20 +83,20 @@ export const schedules: Day[] = [
 				end: '1:00PM'
 			},
 			{
-				name: 'Ronni Cantadore',
-				description: 'Buy or die',
+				name: 'Anita Singh',
+				description: 'AI in Manufacturing',
 				start: '1:00PM',
 				end: '2:00PM'
 			},
 			{
-				name: 'Erhart Cockrin',
-				description: 'In-person cancellation',
+				name: 'Amit Patel',
+				description: 'AI in Retail',
 				start: '2:00PM',
 				end: '3:00PM'
 			},
 			{
-				name: 'Parker Johnson',
-				description: 'The pay/cancel switcheroo',
+				name: 'Suresh Reddy',
+				description: 'AI in Agriculture',
 				start: '3:00PM',
 				end: '4:00PM'
 			}
@@ -104,25 +104,26 @@ export const schedules: Day[] = [
 	},
 	{
 		date: 'Dec 1',
-		dateTime: '2022-04-05',
+		dateTime: '2022-04-04',
 		track: 'Track 2',
-		summary: 'Next we spend the day talking about deceiving people with technology.',
+		summary:
+			'The first day of the conference is focused on Product Building, Running Company & Startup.',
 		timeslots: [
 			{
-				name: 'Damaris Kimura',
-				description: 'The invisible card reader',
+				name: 'Ramesh Kumar',
+				description: 'Product Building from Scratch',
 				start: '9:00AM',
 				end: '10:00AM'
 			},
 			{
-				name: 'Ibrahim Frasch',
-				description: 'Stealing fingerprints',
+				name: 'Sunita Sharma',
+				description: 'Running a Successful Company',
 				start: '10:00AM',
 				end: '11:00AM'
 			},
 			{
-				name: 'Cathlene Burrage',
-				description: 'Voting machines',
+				name: 'Rajiv Gupta',
+				description: 'Startup - From Idea to Implementation',
 				start: '11:00AM',
 				end: '12:00PM'
 			},
@@ -133,20 +134,20 @@ export const schedules: Day[] = [
 				end: '1:00PM'
 			},
 			{
-				name: 'Rinaldo Beynon',
-				description: 'Blackhat SEO that works',
+				name: 'Anjali Singh',
+				description: 'Product Management in the Modern World',
 				start: '1:00PM',
 				end: '2:00PM'
 			},
 			{
-				name: 'Waylon Hyden',
-				description: 'Turning your audience into a botnet',
+				name: 'Rajesh Patel',
+				description: 'Startup Funding and Investment',
 				start: '2:00PM',
 				end: '3:00PM'
 			},
 			{
-				name: 'Giordano Sagucio',
-				description: 'Fly phishing',
+				name: 'Suresh Reddy',
+				description: 'Company Culture and Employee Retention',
 				start: '3:00PM',
 				end: '4:00PM'
 			}
@@ -154,27 +155,21 @@ export const schedules: Day[] = [
 	},
 	{
 		date: 'Dec 2',
-		dateTime: '2022-04-06',
+		dateTime: '2022-04-04',
 		track: 'Track 1',
-		summary: 'We close out the event previewing new techniques that are still in development.',
+		summary: 'The second day of the conference is focused on Mobile/Web development workshop.',
 		timeslots: [
 			{
-				name: 'Andrew Greene',
-				description: 'Neuralink dark patterns',
+				name: 'Rahul Sharma',
+				description: 'Responsive Web Design',
 				start: '9:00AM',
 				end: '10:00AM'
 			},
 			{
-				name: 'Heather Terry',
-				description: 'DALL-E for passports',
+				name: 'Priya Gupta',
+				description: 'Mobile First Design',
 				start: '10:00AM',
 				end: '11:00AM'
-			},
-			{
-				name: 'Piers Wilkins',
-				description: 'Quantum password cracking',
-				start: '11:00AM',
-				end: '12:00PM'
 			},
 			{
 				name: 'Lunch',
@@ -183,70 +178,20 @@ export const schedules: Day[] = [
 				end: '1:00PM'
 			},
 			{
-				name: 'Gordon Sanderson',
-				description: 'SkyNet is coming',
+				name: 'Anand Patel',
+				description: 'Progressive Web Apps',
 				start: '1:00PM',
 				end: '2:00PM'
 			},
 			{
-				name: 'Kimberly Parsons',
-				description: 'Dark patterns for the metaverse',
+				name: 'Geeta Singh',
+				description: 'Cross Platform Mobile Development',
 				start: '2:00PM',
 				end: '3:00PM'
 			},
 			{
-				name: 'Richard Astley',
-				description: 'Knowing the game and playing it',
-				start: '3:00PM',
-				end: '4:00PM'
-			}
-		]
-	},
-	{
-		date: 'Dec 2',
-		dateTime: '2022-04-06',
-		track: 'Track 2',
-		summary: 'We close out the event previewing new techniques that are still in development.',
-		timeslots: [
-			{
-				name: 'Andrew Greene',
-				description: 'Neuralink dark patterns',
-				start: '9:00AM',
-				end: '10:00AM'
-			},
-			{
-				name: 'Heather Terry',
-				description: 'DALL-E for passports',
-				start: '10:00AM',
-				end: '11:00AM'
-			},
-			{
-				name: 'Piers Wilkins',
-				description: 'Quantum password cracking',
-				start: '11:00AM',
-				end: '12:00PM'
-			},
-			{
-				name: 'Lunch',
-				description: null,
-				start: '12:00PM',
-				end: '1:00PM'
-			},
-			{
-				name: 'Gordon Sanderson',
-				description: 'SkyNet is coming',
-				start: '1:00PM',
-				end: '2:00PM'
-			},
-			{
-				name: 'Kimberly Parsons',
-				description: 'Dark patterns for the metaverse',
-				start: '2:00PM',
-				end: '3:00PM'
-			},
-			{
-				name: 'Richard Astley',
-				description: 'Knowing the game and playing it',
+				name: 'Vijay Kumar',
+				description: 'Web Performance Optimization',
 				start: '3:00PM',
 				end: '4:00PM'
 			}
