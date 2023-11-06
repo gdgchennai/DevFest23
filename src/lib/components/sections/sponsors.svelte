@@ -12,7 +12,7 @@
 	</h1>
 	<p class="text-center max-w-lg">Let's Make a Difference Together! Become Our Sponsor.</p>
 
-	<PillButton label="Join us now" />
+	<PillButton label="Sponsorship Prospectus" />
 
 	<SponsorsCard {sponsors} />
 </section>
@@ -41,8 +41,6 @@
 	<p class="text-center max-w-lg">
 		Let's Make a Difference Together! Become Our Corporate Partner.
 	</p>
-
-	<PillButton label="Join us now" />
 
 	<SponsorsCard {sponsors} />
 </section>

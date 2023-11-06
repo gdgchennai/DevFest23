@@ -17,7 +17,7 @@
 		<p>IIT–M Research Park, Chennai</p>
 	</div>
 	<h1
-		class="text-[min(12vw,90px)] leading-[1] tracking-tighter text-center max-w-3xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
+		class="text-[min(12vw,90px)] leading-[1] tracking-tighter text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
 		Chennai’s most awaited tech conference
 	</h1>
