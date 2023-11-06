@@ -3,9 +3,9 @@
 </script>
 
 <section id="hero-section" class="flex flex-col gap-6 h-auto items-center justify-center my-20">
-	<div class="mx-auto flex items-center gap-4 px-4 mt-1 font-mono text-sm text-gray-500">
+	<div class="mx-auto flex items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500">
 		<p>
-			<time datetime="01-12-2024">01</time>-<time datetime="02-12-2024">02 of Dec, 2023</time>
+			<time datetime="01-12-2023">01</time>-<time datetime="02-12-2023">02 of Dec, 2023</time>
 		</p>
 
 		<svg
