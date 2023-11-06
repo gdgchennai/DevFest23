@@ -1,5 +1,5 @@
 <script lang="ts">
-	const benefits = ['Expert talks', 'Careers', 'Swags', 'Food', 'Fun++'];
+	const benefits = ['Expert talks', 'Careers', 'Swags', 'Networking', 'Fun++'];
 </script>
 
 <div
