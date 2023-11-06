@@ -14,6 +14,7 @@ export interface Day {
 		description: string | null;
 		start: string;
 		end: string;
+		speaker?: Speakers;
 	}>;
 }
 
@@ -35,6 +36,7 @@ export interface Speakers {
 	company: string;
 	position: string;
 	description: string;
+	tags: string[];
 	socials?: {
 		twitter?: string;
 		linkedin?: string;

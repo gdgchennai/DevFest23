@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { clsx } from '$lib/utils';
 	import type { Day } from '$lib/types';
+	import { createEventDispatcher } from 'svelte';
 	export let track: string;
 	export let day: Day;
+
+	const dispatcher = createEventDispatcher();
 </script>
 
 <ol
@@ -22,7 +25,9 @@
 			<h4
 				class="text-lg font-semibold tracking-tight text-gray-900 hover:text-blue-500 cursor-pointer"
 				tabindex={0}
-				on:click
+				on:click={() => {
+					dispatcher('speaker', timeslot.speaker);
+				}}
 			>
 				{timeslot.name}
 			</h4>

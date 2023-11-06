@@ -59,16 +59,46 @@ export const schedules: Day[] = [
 		summary: 'The first day of the conference is focused on AI.',
 		timeslots: [
 			{
-				name: 'Ravi Sharma',
+				name: 'Spikey Sanju',
 				description: 'AI in Healthcare',
 				start: '9:00AM',
-				end: '10:00AM'
+				end: '10:00AM',
+				speaker: {
+					name: 'Spikey Sanju',
+					image: 'https://avatars.githubusercontent.com/u/23400022?v=4',
+					company: 'THISUX',
+					position: 'Founder & CEO',
+					description:
+						'Sanju is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['GDE', 'Lightning Talk'],
+					socials: {
+						twitter: 'https://twitter.com/spikeysanju',
+						linkedin: 'https://www.linkedin.com/in/spikeysanju',
+						github: 'https://www.github.com/spikeysanju',
+						website: 'https://www.spikeysanju.com'
+					}
+				}
 			},
 			{
 				name: 'Priya Gupta',
 				description: 'AI in Finance',
 				start: '10:00AM',
-				end: '11:00AM'
+				end: '11:00AM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Vijay Kumar',
@@ -205,10 +235,12 @@ export const speakers: Speakers[] = [
 		image: 'https://avatars.githubusercontent.com/u/23400022?v=4',
 		company: 'THISUX',
 		position: 'Founder & CEO',
-		description: 'Sanju is a designer, developer, and startup founder based in Chennai, India.'
+		description: 'Sanju is a designer, developer, and startup founder based in Chennai, India.',
+		tags: ['GDE', 'Lightning Talk']
 	}
 ];
 
+// logo size 148 x 58
 export const sponsors: Sponsors[] = [
 	{
 		logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
@@ -242,6 +274,7 @@ export const sponsors: Sponsors[] = [
 	}
 ];
 
+// logo size 148 x 58
 export const community_partners: Sponsors[] = [
 	{
 		logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
@@ -275,6 +308,7 @@ export const community_partners: Sponsors[] = [
 	}
 ];
 
+// logo size 148 x 58
 export const corporate_partners: Sponsors[] = [
 	{
 		logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
