@@ -25,10 +25,10 @@
 </script>
 
 <Modal bind:showModal>
-	<div class="p-6 gap-3 flex flex-row w-full">
+	<div class="p-6 gap-6 flex flex-col sm:flex-row w-full">
 		<img src={active_speaker.image} alt={active_speaker.name} class="w-44 rounded-xl" />
 
-		<div class="flex flex-col items-center justify-between">
+		<div class="flex flex-col items-center justify-between gap-2">
 			<div>
 				<h1 class="text-xl font-semibold tracking-tight">{active_speaker.name}</h1>
 				<p class="mt-1 font-mono text-sm text-gray-500 w-full flex">

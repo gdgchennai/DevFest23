@@ -104,31 +104,106 @@ export const schedules: Day[] = [
 				name: 'Vijay Kumar',
 				description: 'AI in Transportation',
 				start: '11:00AM',
-				end: '12:00PM'
+				end: '12:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Lunch',
 				description: null,
 				start: '12:00PM',
-				end: '1:00PM'
+				end: '1:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Anita Singh',
 				description: 'AI in Manufacturing',
 				start: '1:00PM',
-				end: '2:00PM'
+				end: '2:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Amit Patel',
 				description: 'AI in Retail',
 				start: '2:00PM',
-				end: '3:00PM'
+				end: '3:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Suresh Reddy',
 				description: 'AI in Agriculture',
 				start: '3:00PM',
-				end: '4:00PM'
+				end: '4:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			}
 		]
 	},
@@ -143,43 +218,148 @@ export const schedules: Day[] = [
 				name: 'Ramesh Kumar',
 				description: 'Product Building from Scratch',
 				start: '9:00AM',
-				end: '10:00AM'
+				end: '10:00AM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Sunita Sharma',
 				description: 'Running a Successful Company',
 				start: '10:00AM',
-				end: '11:00AM'
+				end: '11:00AM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Rajiv Gupta',
 				description: 'Startup - From Idea to Implementation',
 				start: '11:00AM',
-				end: '12:00PM'
+				end: '12:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Lunch',
 				description: null,
 				start: '12:00PM',
-				end: '1:00PM'
+				end: '1:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Anjali Singh',
 				description: 'Product Management in the Modern World',
 				start: '1:00PM',
-				end: '2:00PM'
+				end: '2:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Rajesh Patel',
 				description: 'Startup Funding and Investment',
 				start: '2:00PM',
-				end: '3:00PM'
+				end: '3:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Suresh Reddy',
 				description: 'Company Culture and Employee Retention',
 				start: '3:00PM',
-				end: '4:00PM'
+				end: '4:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			}
 		]
 	},
@@ -193,37 +373,127 @@ export const schedules: Day[] = [
 				name: 'Rahul Sharma',
 				description: 'Responsive Web Design',
 				start: '9:00AM',
-				end: '10:00AM'
+				end: '10:00AM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Priya Gupta',
 				description: 'Mobile First Design',
 				start: '10:00AM',
-				end: '11:00AM'
+				end: '11:00AM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Lunch',
 				description: null,
 				start: '12:00PM',
-				end: '1:00PM'
+				end: '1:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Anand Patel',
 				description: 'Progressive Web Apps',
 				start: '1:00PM',
-				end: '2:00PM'
+				end: '2:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Geeta Singh',
 				description: 'Cross Platform Mobile Development',
 				start: '2:00PM',
-				end: '3:00PM'
+				end: '3:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			},
 			{
 				name: 'Vijay Kumar',
 				description: 'Web Performance Optimization',
 				start: '3:00PM',
-				end: '4:00PM'
+				end: '4:00PM',
+				speaker: {
+					name: 'Priya Gupta',
+					image: 'https://avatars.githubusercontent.com/u/29665085?v=4',
+					company: 'Avon',
+					position: 'Senior Software Engineer',
+					description:
+						'Priya Gupta is a designer, developer, and startup founder based in Chennai, India.',
+					tags: ['WTM'],
+					socials: {
+						twitter: 'https://twitter.com/priyagupta',
+						linkedin: 'https://www.linkedin.com/in/priyagupta',
+						github: 'https://www.github.com/priyagupta',
+						website: 'https://www.priyagupta.com'
+					}
+				}
 			}
 		]
 	}
