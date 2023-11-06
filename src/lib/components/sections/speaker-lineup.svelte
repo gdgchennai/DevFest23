@@ -20,7 +20,6 @@
 	function handleSpeaker(e: CustomEvent<Speakers>) {
 		showModal = true;
 		active_speaker = e.detail;
-		console.log('selected', active_speaker);
 	}
 </script>
 
