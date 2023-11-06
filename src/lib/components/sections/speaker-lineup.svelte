@@ -23,6 +23,14 @@
 	}
 </script>
 
+<style>
+.fixed-width {
+  max-width: 1000px;
+  width: 100%;
+}
+</style>
+
+
 <Modal bind:showModal>
 	<div class="p-6 gap-6 flex flex-col sm:flex-row w-full">
 		<img src={active_speaker.image} alt={active_speaker.name} class="w-44 rounded-xl" />
@@ -197,7 +205,7 @@
 
 	<div>
 		{#if active_tab === tabs[0]}
-			<div class="flex flex-col md:flex-row">
+			<div class="flex flex-col md:flex-row fixed-width">
 				{#each schedules as schedule, i}
 					{#if schedule.date === 'Dec 1'}
 						<TimeSlots day={schedule} track={schedule.track} on:speaker={handleSpeaker} />
@@ -205,7 +213,7 @@
 				{/each}
 			</div>
 		{:else}
-			<div class="flex flex-col md:flex-row">
+			<div class="flex flex-col md:flex-row fixed-width">
 				{#each schedules as schedule, i}
 					{#if schedule.date === 'Dec 2'}
 						<TimeSlots day={schedule} track={schedule.track} on:speaker={handleSpeaker} />
