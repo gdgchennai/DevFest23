@@ -26,5 +26,5 @@ export interface Benefits {
 export interface Sponsors {
 	logo: string;
 	company: string;
-	wesbite: string;
+	website: string;
 }

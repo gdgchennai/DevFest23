@@ -231,3 +231,69 @@ export const sponsors: Sponsors[] = [
 		website: 'https://statamic.com'
 	}
 ];
+
+export const community_partners: Sponsors[] = [
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
+		company: 'Transistor',
+		website: 'https://www.transistor.com'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg',
+		company: 'Reform',
+		website: 'https://use-reform.com'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg',
+		company: 'Tuple',
+		website: 'https://tuple.app'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/laravel-logo-gray-900.svg',
+		company: 'Laravel',
+		website: 'https://laravel.com'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg',
+		company: 'SavvyCal',
+		website: 'https://savvycal.com'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg',
+		company: 'Statamic',
+		website: 'https://statamic.com'
+	}
+];
+
+export const corporate_partners: Sponsors[] = [
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
+		company: 'Transistor',
+		website: 'https://www.transistor.com'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg',
+		company: 'Reform',
+		website: 'https://use-reform.com'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg',
+		company: 'Tuple',
+		website: 'https://tuple.app'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/laravel-logo-gray-900.svg',
+		company: 'Laravel',
+		website: 'https://laravel.com'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg',
+		company: 'SavvyCal',
+		website: 'https://savvycal.com'
+	},
+	{
+		logo: 'https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg',
+		company: 'Statamic',
+		website: 'https://statamic.com'
+	}
+];
