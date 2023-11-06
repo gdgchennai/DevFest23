@@ -1,4 +1,4 @@
-import type { Day, Memory, Sponsors } from '$lib/types';
+import type { Day, Memory, Speakers, Sponsors } from '$lib/types';
 
 export const memories: Memory[] = [
 	{
@@ -196,6 +196,16 @@ export const schedules: Day[] = [
 				end: '4:00PM'
 			}
 		]
+	}
+];
+
+export const speakers: Speakers[] = [
+	{
+		name: 'Spikey Sanju',
+		image: 'https://avatars.githubusercontent.com/u/23400022?v=4',
+		company: 'THISUX',
+		position: 'Founder & CEO',
+		description: 'Sanju is a designer, developer, and startup founder based in Chennai, India.'
 	}
 ];
 

@@ -28,3 +28,17 @@ export interface Sponsors {
 	company: string;
 	website: string;
 }
+
+export interface Speakers {
+	name: string;
+	image: string;
+	company: string;
+	position: string;
+	description: string;
+	socials?: {
+		twitter?: string;
+		linkedin?: string;
+		github?: string;
+		website?: string;
+	};
+}

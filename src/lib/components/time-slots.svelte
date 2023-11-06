@@ -19,7 +19,11 @@
 				<div class="mx-auto mb-8 h-px w-48 bg-gray-500/10" />
 			{/if}
 
-			<h4 class="text-lg font-semibold tracking-tight text-gray-900">
+			<h4
+				class="text-lg font-semibold tracking-tight text-gray-900 hover:text-blue-500 cursor-pointer"
+				tabindex={0}
+				on:click
+			>
 				{timeslot.name}
 			</h4>
 			{#if timeslot.description}
