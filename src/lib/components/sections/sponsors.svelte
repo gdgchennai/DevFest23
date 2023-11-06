@@ -10,9 +10,16 @@
 	>
 		Our Sponsors
 	</h1>
-	<p class="text-center max-w-lg">Let's Make a Difference Together! Become Our Sponsor.</p>
+	<p class="text-center max-w-lg">Willing to support? Become Our Sponsor.</p>
 
-	<PillButton label="Sponsorship Prospectus" />
+	<PillButton label="Sponsorship Prospectus" 
+		on:click={() => {
+			window.open(
+				'https://devfest.gdgchennai.in/sponsorship.pdf',
+				'_blank'
+			);
+		}}
+	/>
 
 	<SponsorsCard {sponsors} />
 </section>
@@ -27,7 +34,14 @@
 		Let's Make a Difference Together! Become Our Community Partner.
 	</p>
 
-	<PillButton label="Join us now" />
+	<PillButton label="Join us now" 
+		on:click={() => {
+			window.open(
+				'https://forms.gle/FjJoCkiM1DSdcdLj8',
+				'_blank'
+			);
+		}}
+	/>
 
 	<SponsorsCard {sponsors} />
 </section>
@@ -38,9 +52,6 @@
 	>
 		Corporate Partners
 	</h1>
-	<p class="text-center max-w-lg">
-		Let's Make a Difference Together! Become Our Corporate Partner.
-	</p>
 
 	<SponsorsCard {sponsors} />
 </section>

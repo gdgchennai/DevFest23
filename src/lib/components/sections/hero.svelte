@@ -27,7 +27,24 @@
 	</p>
 
 	<div class="flex flex-row gap-3">
-		<PillButton label="Get your tickets" />
-		<PillButton label="Add to calendar" action="secondary" />
+		<PillButton
+		label="Get your tickets"
+		on:click={() => {
+			window.open(
+				'https://konfhub.com/devfest-2023-chennai',
+				'_blank'
+			);
+		}}
+	/>
+		<PillButton
+		label="Add to calendar"
+		action="secondary"
+		on:click={() => {
+			window.open(
+				'https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDA1OTY0MWFhNXNmaGZuYW5udnJ2bTRyZTJfMjAyMzEyMDFUMDIzMDAwWiA4MmNmMWQxMWM3MzI1ZjlhZTk1Y2ExNmFkOWEyNmE5MThiMTUyNTk5ODQwMzIyNWM5MGEwM2JkYTQ3NzdjZTcyQGc&tmsrc=82cf1d11c7325f9ae95ca16ad9a26a918b1525998403225c90a03bda4777ce72%40group.calendar.google.com&scp=ALL',
+				'_blank'
+			);
+		}}
+	/>
 	</div>
 </section>

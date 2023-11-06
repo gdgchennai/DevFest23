@@ -2,7 +2,6 @@
 	import Footer from '$lib/components/footer.svelte';
 	import Hero from '$lib/components/sections/hero.svelte';
 	import SpeakerLineup from '$lib/components/sections/speaker-lineup.svelte';
-	import SubmitTalk from '$lib/components/sections/submit-talk.svelte';
 	import WhyAttend from '$lib/components/sections/why-attend.svelte';
 	import Sponsors from '$lib/components/sections/sponsors.svelte';
 	import Memories from '$lib/components/sections/memories.svelte';

@@ -14,7 +14,14 @@
 		1 amazing event.
 	</p>
 
-	<PillButton label="Get your tickets" />
+	<PillButton label="Get your tickets" 
+		on:click={() => {
+			window.open(
+				'https://konfhub.com/devfest-2023-chennai',
+				'_blank'
+			);
+		}}
+	/>
 
 	<div
 		class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-2 lg:columns-2 [&>img:not(:first-child)]:mt-8 place-items-center place-content-center"
