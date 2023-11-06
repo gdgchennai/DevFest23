@@ -10,7 +10,7 @@
 		DevFest 2022 was so much fun.
 	</h1>
 	<p class="text-center max-w-lg">
-		Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and
+		Last year, we had 800+ attendees, 20+ speakers, 20+ sessions, and
 		1 amazing event.
 	</p>
 
