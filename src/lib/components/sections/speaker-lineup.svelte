@@ -32,7 +32,7 @@
 			<div>
 				<h1 class="text-xl font-semibold tracking-tight">{active_speaker.name}</h1>
 				<p class="mt-1 font-mono text-sm text-gray-500 w-full flex">
-					{active_speaker.position} at {active_speaker.company}
+					{active_speaker.position}<br/>{active_speaker.company}
 				</p>
 
 				<p class="mt-1">
