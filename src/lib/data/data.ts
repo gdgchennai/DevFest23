@@ -1,4 +1,4 @@
-import type { Day, Memory, Speakers, Sponsors } from '$lib/types';
+import type { Day, Memory, Sponsors } from '$lib/types';
 
 export const memories: Memory[] = [
 	{
@@ -1298,115 +1298,44 @@ export const schedules: Day[] = [
 	},
 ];
 
-export const speakers: Speakers[] = [
-	{
-		name: 'Spikey Sanju',
-		image: 'https://avatars.githubusercontent.com/u/23400022?v=4',
-		company: 'THISUX',
-		position: 'Founder & CEO',
-		description: 'Sanju is a designer, developer, and startup founder based in Chennai, India.',
-		tags: ['GDE', 'Lightning Talk']
-	}
-];
-
 // logo size 148 x 58
 export const sponsors: Sponsors[] = [
 	{
-		logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
-		company: 'Transistor',
-		website: 'https://www.transistor.com'
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699294086/devfest23/logos/wvvaqjxsyeo57i972e3q.webp',
+		company: 'Google for Developer',
+		website: 'https://developers.google.com'
 	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg',
-		company: 'Reform',
-		website: 'https://use-reform.com'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg',
-		company: 'Tuple',
-		website: 'https://tuple.app'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/laravel-logo-gray-900.svg',
-		company: 'Laravel',
-		website: 'https://laravel.com'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg',
-		company: 'SavvyCal',
-		website: 'https://savvycal.com'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg',
-		company: 'Statamic',
-		website: 'https://statamic.com'
-	}
 ];
 
 // logo size 148 x 58
 export const community_partners: Sponsors[] = [
 	{
-		logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
-		company: 'Transistor',
-		website: 'https://www.transistor.com'
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699293611/devfest23/logos/t6gdyhhajis5bgnrpklf.webp',
+		company: 'GDG Cloud Chennai',
+		website: 'https://gdg.community.dev/gdg-cloud-chennai'
 	},
 	{
-		logo: 'https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg',
-		company: 'Reform',
-		website: 'https://use-reform.com'
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699293600/devfest23/logos/ezdrdfomige29qcm3ldu.webp',
+		company: 'WTM Chennai',
+		website: 'https://gdg.community.dev/gdg-chennai'
 	},
 	{
-		logo: 'https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg',
-		company: 'Tuple',
-		website: 'https://tuple.app'
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699293601/devfest23/logos/l9y7ax7p7joinoq9oui2.webp',
+		company: 'TFUG Chennai',
+		website: 'https://www.meetup.com/TensorFlow-User-Group-Chennai/'
 	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/laravel-logo-gray-900.svg',
-		company: 'Laravel',
-		website: 'https://laravel.com'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg',
-		company: 'SavvyCal',
-		website: 'https://savvycal.com'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg',
-		company: 'Statamic',
-		website: 'https://statamic.com'
-	}
 ];
 
 // logo size 148 x 58
 export const corporate_partners: Sponsors[] = [
 	{
-		logo: 'https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg',
-		company: 'Transistor',
-		website: 'https://www.transistor.com'
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699291964/devfest23/logos/cnku4jieszvr9nazvfev.webp',
+		company: 'Konfhub',
+		website: 'https://konfhub.com/'
 	},
 	{
-		logo: 'https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg',
-		company: 'Reform',
-		website: 'https://use-reform.com'
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699292249/devfest23/logos/tlxjery5yfkowizsxiwu.webp',
+		company: 'Jetbrains',
+		website: 'https://jetbrains.com/'
 	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg',
-		company: 'Tuple',
-		website: 'https://tuple.app'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/laravel-logo-gray-900.svg',
-		company: 'Laravel',
-		website: 'https://laravel.com'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg',
-		company: 'SavvyCal',
-		website: 'https://savvycal.com'
-	},
-	{
-		logo: 'https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg',
-		company: 'Statamic',
-		website: 'https://statamic.com'
-	}
 ];

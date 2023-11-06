@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { schedules, speakers } from '$lib/data/data';
+	import { schedules } from '$lib/data/data';
 	import TimeSlots from '$lib/components/time-slots.svelte';
 	import Modal from '$lib/components/modal.svelte';
 	import { clsx } from '$lib/utils';
@@ -9,12 +9,12 @@
 	let tabs = ['Day 1', 'Day 2'];
 	let active_tab = 'Day 1';
 	let active_speaker: Speakers = {
-		name: 'Spikey Sanju',
-		image: 'https://avatars.githubusercontent.com/u/23400022?v=4',
-		company: 'THISUX',
-		position: 'Founder & CEO',
-		description: 'Sanju is a designer, developer, and startup founder based in Chennai, India.',
-		tags: ['GDE', 'Lightning Talk']
+		name: '',
+		image: '',
+		company: '',
+		position: '',
+		description: '',
+		tags: []
 	};
 
 	function handleSpeaker(e: CustomEvent<Speakers>) {
