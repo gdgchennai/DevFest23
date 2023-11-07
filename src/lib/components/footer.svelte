@@ -5,7 +5,7 @@
 	<div class="w-full text-gray-500">© 2023 GDG Chennai. All rights reserved.</div>
 
 	<div class="flex flex-row gap-6 items-start justify-start w-fit">
-		<a id="twitter" href="/" class="hover:cursor-pointer">
+		<a id="twitter" href="//twitter.com/gdgchennai" target="_blank" rel="noopener noreferrer" class="hover:cursor-pointer">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-brand-x"
@@ -23,7 +23,7 @@
 				<path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
 			</svg>
 		</a>
-		<a id="linkedin" href="/" class="hover:cursor-pointer">
+		<a id="linkedin" href="//linkedin.com/company/gdgchennai" target="_blank" rel="noopener noreferrer" class="hover:cursor-pointer">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-brand-linkedin"
@@ -45,7 +45,7 @@
 			</svg>
 		</a>
 
-		<a id="instgram" href="/" class="hover:cursor-pointer">
+		<a id="instgram" href="//instagram.com/gdgchennai" target="_blank" rel="noopener noreferrer" class="hover:cursor-pointer">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-brand-instagram"
@@ -65,7 +65,7 @@
 			</svg>
 		</a>
 
-		<a id="discord" href="/" class="hover:cursor-pointer">
+		<a id="discord" href="//bit.ly/gdgchennai-discord" target="_blank" rel="noopener noreferrer" class="hover:cursor-pointer">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-brand-discord"
@@ -88,7 +88,7 @@
 			</svg>
 		</a>
 
-		<a id="youtube" href="/" class="hover:cursor-pointer">
+		<a id="youtube" href="//youtube.com/@GDGCHENNAICOMMUNITY" target="_blank" rel="noopener noreferrer" class="hover:cursor-pointer">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-brand-youtube"
