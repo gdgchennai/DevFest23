@@ -29,10 +29,13 @@
 		showModal ? 'scale-0' : 'hidden'
 	)}
 >
+	<div class="m-3 absolute top-4 right-4 text-gray-500">
+		<button on:click={() => dialog.close()}> Close</button>
+	</div>
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div
 		on:click|stopPropagation
-		class="flex w-full flex-col space-y-6"
+		class="flex w-full flex-col"
 		on:keydown|self={(e) => {
 			if (e.key === 'Enter') {
 				e.preventDefault();

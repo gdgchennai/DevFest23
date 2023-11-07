@@ -20,7 +20,7 @@
 </script>
 
 <Modal bind:showModal>
-	<div class="p-6 gap-6 flex flex-col sm:flex-row w-full">
+	<div class="gap-6 flex flex-col sm:flex-row w-full">
 		<SpeakerCard speakers={active_speakers} />
 	</div>
 </Modal>

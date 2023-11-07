@@ -2,14 +2,15 @@
 	import type { Speakers } from '$lib/types';
 
 	export let speakers: Speakers[];
+	let showMore = speakers.map(() => false); // initialize all to false
 </script>
 
-<div class="p-6 gap-6 flex flex-col w-full">
-	{#each speakers as speaker}
+<div class="gap-6 flex flex-col w-full">
+	{#each speakers as speaker, i}
 		<div class="p-6 gap-6 flex flex-col sm:flex-row w-full">
 			<img src={speaker.image} alt={speaker.name} class="w-48 h-48 rounded-xl" />
 
-			<div class="flex flex-col items-center justify-between gap-2">
+			<div class="flex flex-col items-start justify-between gap-2">
 				<div>
 					<h1 class="text-xl font-semibold tracking-tight">{speaker.name}</h1>
 
@@ -18,7 +19,18 @@
 					</p>
 
 					<p class="mt-1">
-						{speaker.description}
+						{#if speaker.description.length > 0}
+							{showMore[i] && speaker.description
+								? speaker.description
+								: speaker.description.slice(0, 100) + '...'}
+
+							<button
+								class="text-blue-500 hover:underline"
+								on:click={() => (showMore[i] = !showMore[i])}
+							>
+								{showMore[i] ? 'Show less' : 'Show more'}
+							</button>
+						{/if}
 					</p>
 
 					{#if speaker.tags}
