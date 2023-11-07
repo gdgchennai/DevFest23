@@ -3,10 +3,10 @@
 </script>
 
 <div
-	class="text-[min(12vw,80px)] leading-[1] tracking-tighter text-center max-w-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 h-auto"
+	class="text-7xl leading-[1] tracking-tighter text-center max-w-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 h-auto"
 >
 	Why attend DevFest 2023? Because you get <span
-		class="text-green-500 inline-flex flex-col h-16 sm:h-20 overflow-hidden"
+		class="text-green-500 inline-flex flex-col h-[calc(theme(fontSize.4xl)*theme(lineHeight.loose))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.loose))] overflow-hidden"
 	>
 		<ul
 			class="block animate-text-slide-5 text-center leading-tight [&_li]:block -my-4 text-transparent bg-clip-text bg-gradient-to-b from-sky-500 to-purple-600"

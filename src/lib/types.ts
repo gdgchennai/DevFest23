@@ -14,7 +14,7 @@ export interface Day {
 		description: string | null;
 		start: string;
 		end: string;
-		speaker?: Speakers;
+		speaker?: Speakers[];
 	}>;
 }
 
