@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { sponsors } from '$lib/data/data';
+	import { sponsors, community_partners, corporate_partners } from '$lib/data/data';
 	import SponsorsCard from '$lib/components/sponsors-card.svelte';
-	import PillButton from '../pill-button.svelte';
+	import PillButton from '$lib/components/pill-button.svelte';
 </script>
 
 <section id="sponsors" class="flex flex-col gap-6 place-items-center h-auto">
@@ -12,12 +12,10 @@
 	</h1>
 	<p class="text-center max-w-lg">Willing to support? Become Our Sponsor.</p>
 
-	<PillButton label="Sponsorship Prospectus" 
+	<PillButton
+		label="Sponsorship Prospectus"
 		on:click={() => {
-			window.open(
-				'https://devfest.gdgchennai.in/sponsorship.pdf',
-				'_blank'
-			);
+			window.open('https://devfest.gdgchennai.in/sponsorship.pdf', '_blank');
 		}}
 	/>
 
@@ -34,16 +32,14 @@
 		Let's Make a Difference Together! Become Our Community Partner.
 	</p>
 
-	<PillButton label="Join us now" 
+	<PillButton
+		label="Join us now"
 		on:click={() => {
-			window.open(
-				'https://forms.gle/FjJoCkiM1DSdcdLj8',
-				'_blank'
-			);
+			window.open('https://forms.gle/FjJoCkiM1DSdcdLj8', '_blank');
 		}}
 	/>
 
-	<SponsorsCard {sponsors} />
+	<SponsorsCard sponsors={community_partners} />
 </section>
 
 <section id="sponsors" class="flex flex-col gap-6 place-items-center h-auto">
@@ -53,5 +49,5 @@
 		Corporate Partners
 	</h1>
 
-	<SponsorsCard {sponsors} />
+	<SponsorsCard sponsors={corporate_partners} />
 </section>
