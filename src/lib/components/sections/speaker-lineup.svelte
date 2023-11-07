@@ -29,7 +29,7 @@
 	<h1
 		class="text-[min(12vw,80px)] leading-[1] tracking-tighter text-center max-w-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
-		Speaker Lineup and Sessions
+		Agenda & Speakers
 	</h1>
 	<p class="text-center max-w-lg">
 		Come. Learn, Network and Celebrate with Google Developer Groups and Google Developer Experts,
