@@ -25,7 +25,7 @@
 		}
 	}}
 	class={clsx(
-		'fixed inset-0 z-10 m-auto w-full max-w-xl shadow-xl shadow-blue-900/5 items-center justify-center overflow-auto rounded-lg border border-gray-200 shadow-3xl backdrop:bg-white/40 backdrop:backdrop-blur-sm open:scale-100 open:transform-gpu open:transition-transform open:duration-75 open:ease-in-out',
+		'fixed inset-0 z-10 m-auto w-full max-w-5xl shadow-xl shadow-blue-900/5 items-center justify-center overflow-auto rounded-lg border border-gray-200 shadow-3xl backdrop:bg-white/40 backdrop:backdrop-blur-sm open:scale-100 open:transform-gpu open:transition-transform open:duration-75 open:ease-in-out',
 		showModal ? 'scale-0' : 'hidden'
 	)}
 >

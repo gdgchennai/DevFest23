@@ -113,12 +113,13 @@ export const schedules: Day[] = [
 						}
 					},
 					{
-						name: 'Naveen S',
-						image: '',
+						name: 'Adit Lal',
+						image:
+							'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367888/devfest23/speakers/aekv1vnlaokclf52emwy.webp',
 						company: 'Freshworkds',
 						position: 'Developer Relations',
 						description:
-							'Naveen is a Developer Relations Engineer at Freshworks. He is a Google Developer Expert in Web Technologies and a Microsoft MVP in Developer Technologies. He is a full stack developer and a passionate technical blogger. He has been writing blogs for more than 10 years and has written 1000+ blog articles. He is an active contributor to StackOverflow and other developer communities. He is a speaker at various developer conferences and has conducted many technical workshops.',
+							'Sanju is a Developer Relations Engineer at Freshworks. He is a Google Developer Expert in Web Technologies and a Microsoft MVP in Developer Technologies. He is a full stack developer and a passionate technical blogger. He has been writing blogs for more than 10 years and has written 1000+ blog articles. He is an active contributor to StackOverflow and other developer communities. He is a speaker at various developer conferences and has conducted many technical workshops.',
 						tags: ['Live coding'],
 						socials: {
 							twitter: 'https://twitter.com/Sairee',

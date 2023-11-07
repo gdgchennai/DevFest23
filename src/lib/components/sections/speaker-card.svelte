@@ -7,7 +7,7 @@
 <div class="p-6 gap-6 flex flex-col w-full">
 	{#each speakers as speaker}
 		<div class="p-6 gap-6 flex flex-col sm:flex-row w-full">
-			<img src={speaker.image} alt={speaker.name} class="w-44 rounded-xl" />
+			<img src={speaker.image} alt={speaker.name} class="w-48 h-48 rounded-xl" />
 
 			<div class="flex flex-col items-center justify-between gap-2">
 				<div>
