@@ -5,49 +5,49 @@ export const memories: Memory[] = [
 		title: 'DevFest 2022 was so much fun.',
 		description:
 			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest.gdgchennai.in/memories/1.webp'
+		image: 'https://devfest22.gdgchennai.in/memories/1.webp'
 	},
 	{
 		title: 'DevFest 2022 was so much fun.',
 		description:
 			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest.gdgchennai.in/memories/2.webp'
+		image: 'https://devfest22.gdgchennai.in/memories/2.webp'
 	},
 	{
 		title: 'DevFest 2022 was so much fun.',
 		description:
 			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest.gdgchennai.in/memories/3.webp'
+		image: 'https://devfest22.gdgchennai.in/memories/3.webp'
 	},
 	{
 		title: 'DevFest 2022 was so much fun.',
 		description:
 			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest.gdgchennai.in/memories/4.jpeg'
+		image: 'https://devfest22.gdgchennai.in/memories/4.jpeg'
 	},
 	{
 		title: 'DevFest 2022 was so much fun.',
 		description:
 			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest.gdgchennai.in/memories/5.webp'
+		image: 'https://devfest22.gdgchennai.in/memories/5.webp'
 	},
 	{
 		title: 'DevFest 2022 was so much fun.',
 		description:
 			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest.gdgchennai.in/memories/6.webp'
+		image: 'https://devfest22.gdgchennai.in/memories/6.webp'
 	},
 	{
 		title: 'DevFest 2022 was so much fun.',
 		description:
 			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest.gdgchennai.in/memories/7.webp'
+		image: 'https://devfest22.gdgchennai.in/memories/7.webp'
 	},
 	{
 		title: 'DevFest 2022 was so much fun.',
 		description:
 			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest.gdgchennai.in/memories/8.webp'
+		image: 'https://devfest22.gdgchennai.in/memories/8.webp'
 	}
 ];
 
