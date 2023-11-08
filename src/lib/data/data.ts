@@ -720,7 +720,7 @@ export const schedules: Day[] = [
 						company: 'Google',
 						position: 'Developer Advocate',
 						description: 'Abirami Sukumaran brings 17 years of industry experience, a tech visionary renowned for leading high-performing, scalable, cost-effective solutions in Data Management Applications. She excels in Data Management (Databases, Application Development, Data Governance), Data Science (Machine Learning, Natural Language Processing), and Cloud Computing (Data, Databases, AI/ML, Serverless). As a Developer Advocate Leader at Google, she codes, researches, writes, and speaks, connecting with developers, customers, and startups to drive innovation, learning, and excellence.',
-						tags: [''],
+						tags: ['Keynote'],
 						socials: {
 							twitter: 'https://twitter.com/AbiramiSukumara',
 							linkedin: 'https://linkedin.com/in/abiramisukumaran',
