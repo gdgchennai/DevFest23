@@ -127,11 +127,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -148,11 +144,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -212,11 +204,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -247,8 +235,8 @@ export const schedules: Day[] = [
 			{
 				name: 'Google Cybersecurity Certifications',
 				description: 'Manikandan Krishnamurthy',
-				start: '2:00PM',
-				end: '2:35PM',
+				start: '2:35PM',
+				end: '2:50PM',
 				speaker: [
 					{
 					name: 'Manikandan Krishnamurthy',
@@ -267,47 +255,20 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Micro Sass - Convert your Side projects to Micro Sass MVP',
-				description: 'Anand NG',
+				name: 'TBD',
+				description: null,
 				start: '2:55PM',
-				end: '3:10PM',
-				speaker: [
-					{
-					name: 'Anand NG',
-					image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699366873/devfest23/speakers/stctvt9x8ycbhxa5xfte.webp',
-					company: 'Freshworks',
-					position: 'Lead Software Engineer - Frontend',
-					description:
-						'',
-					tags: [''],
-					socials: {
-						twitter: '',
-						linkedin: 'www.linkedin.com/in/reachoutanandgopinath',
-						website: ''
-					}
-				}
-				]
-			},
-			{
-				name: 'Cloudlens - Cloud Console in your terminal',
-				description: 'Chinmay Naik',
-				start: '3:15PM',
 				end: '3:30PM',
 				speaker: [
 					{
-					name: 'Chinmay Naik',
-					image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367132/devfest23/speakers/rpsuytep4bmmc1udzaew.webp',
-					company: 'One2N',
-					position: 'Founder',
-					description:
-						'Chinmay Naik is one of the co-founders of One2N where he helps companies solve their backend and reliability engineering problems. He writes pragmatic engineering stories on Twitter. Talk to him any day about psychology, playing percussion, and the Age of empires (apart from the usual backend and reliability engineering) and he won\'t disappoint you.',
-					tags: [''],
-					socials: {
-						twitter: 'https://twitter.com/chinmay185',
-						linkedin: 'https://www.linkedin.com/in/chinmay185',
-						website: ''
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
 					}
-				}
 				]
 			},
 			{
@@ -323,11 +284,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -344,11 +301,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -365,11 +318,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -386,11 +335,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			}
@@ -415,11 +360,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -436,11 +377,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -457,11 +394,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -626,19 +559,46 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'TBD',
-				description: null,
+				name: 'Micro Sass - Convert your Side projects to Micro Sass MVP',
+				description: 'Anand NG',
 				start: '2:00PM',
-				end: '2:35PM',
+				end: '2:15PM',
 				speaker: [
 					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
+						name: 'Anand NG',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699366873/devfest23/speakers/stctvt9x8ycbhxa5xfte.webp',
+						company: 'Freshworks',
+						position: 'Lead Software Engineer - Frontend',
+						description:
+							'',
 						tags: [''],
-						socials: {}
+						socials: {
+							twitter: '',
+							linkedin: 'www.linkedin.com/in/reachoutanandgopinath',
+							website: ''
+						}
+					}
+				]
+			},
+			{
+				name: 'Cloudlens - Cloud Console in your terminal',
+				description: 'Chinmay Naik',
+				start: '2:15PM',
+				end: '2:30PM',
+				speaker: [
+					{
+						name: 'Chinmay Naik',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367132/devfest23/speakers/rpsuytep4bmmc1udzaew.webp',
+						company: 'One2N',
+						position: 'Founder',
+						description:
+							'Chinmay Naik is one of the co-founders of One2N where he helps companies solve their backend and reliability engineering problems. He writes pragmatic engineering stories on Twitter. Talk to him any day about psychology, playing percussion, and the Age of empires (apart from the usual backend and reliability engineering) and he won\'t disappoint you.',
+						tags: [''],
+						socials: {
+							twitter: 'https://twitter.com/chinmay185',
+							linkedin: 'https://www.linkedin.com/in/chinmay185',
+							website: ''
+						}
 					}
 				]
 			},
@@ -719,11 +679,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			}
@@ -748,11 +704,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -790,11 +742,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -833,11 +781,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -854,11 +798,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -875,11 +815,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -938,11 +874,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -959,11 +891,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -980,11 +908,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -1001,11 +925,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -1022,11 +942,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			}
@@ -1051,11 +967,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -1114,11 +1026,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -1130,7 +1038,7 @@ export const schedules: Day[] = [
 				speaker: [
 					{
 						name: 'Muthulakshmi Mahesh',
-						image: '',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699420330/devfest23/speakers/qo9rr2qjzdebyps8nhfs.webp',
 						company: 'Lollypop Design Studio',
 						position: 'UX Designer',
 						description: 'Muthulakshmi works as an UX designer at Lollypop design studio. She is the author of the book "UX Redefined" and she hosts a podcast called, "Pagecraft". She also mentors aspiring UX and UI designers.',
@@ -1177,11 +1085,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			}
@@ -1206,11 +1110,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -1269,11 +1169,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
@@ -1306,7 +1202,7 @@ export const schedules: Day[] = [
 				speaker: [
 					{
 						name: 'S. K. Roshan',
-						image: '',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699420800/devfest23/speakers/l7s9dfwr6oc4lnl8bjj7.webp',
 						company: 'Veloit AI',
 						position: 'Founder',
 						description: 'Roshan is a serial entrepreneur who builds innovative solutions and has been the founder and technical lead at multiple startups and leading them to success.',
@@ -1332,11 +1228,7 @@ export const schedules: Day[] = [
 						position: '',
 						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			}
