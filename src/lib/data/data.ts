@@ -95,6 +95,7 @@ export const schedules: Day[] = [
 			{
 				name: 'Keynote',
 				description: 'Sairee Chahal',
+				start: '10:15AM',
 				end: '10:45AM',
 				speaker: [
 					{

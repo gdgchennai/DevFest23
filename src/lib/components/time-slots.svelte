@@ -16,7 +16,7 @@
 
 	{#each day.timeslots as timeslot, i}
 		<li
-			aria-label={`${timeslot.name} talking about ${timeslot.description} at ${timeslot.start} - ${timeslot.end} PST`}
+			aria-label={`${timeslot.name} talking about ${timeslot.description} at ${timeslot.start} - ${timeslot.end} IST`}
 		>
 			{#if i > 0}
 				<div class="mx-auto mb-8 h-px w-48 bg-gray-500/10" />
@@ -44,7 +44,7 @@
 				<time dateTime={`${day.dateTime}T${timeslot.end}-08:00`}>
 					{timeslot.end}
 				</time>{' '}
-				PST
+				IST
 			</p>
 		</li>
 	{/each}
