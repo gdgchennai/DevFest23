@@ -748,7 +748,7 @@ export const schedules: Day[] = [
 			},
 			{
 				name: 'Secret Web Performance Metric No One Would Tell You',
-				description: null,
+				description: 'Suman Ghosh',
 				start: '10:45AM',
 				end: '11:20AM',
 				speaker: [
