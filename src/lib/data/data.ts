@@ -1261,6 +1261,51 @@ export const community_partners: Sponsors[] = [
 		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699293601/devfest23/logos/l9y7ax7p7joinoq9oui2.webp',
 		company: 'TFUG Chennai',
 		website: 'https://www.meetup.com/TensorFlow-User-Group-Chennai/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700032279/Frame_10_wbpv56.png',
+		company: 'GDSC Dr.MRG University',
+		website: 'https://gdsc.community.dev/dr-mgr-educational-and-research-institute-chennai/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700033289/Frame_11_hzfqug.png',
+		company: 'GDSC-SIST',
+		website: 'https://gdsc.community.dev/sathyabama-institute-of-science-and-technology-chennai/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700036523/Frame_10_1_co5znu.png',
+		company: 'GDSC-SRMRMP',
+		website: 'https://gdsc.community.dev/srm-institute-of-science-and-technology-ramapuram-chennai/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700037394/Frame_13_4_y1ck35.png',
+		company: 'GDSC-SEC',
+		website: 'https://gdsc.community.dev/sri-sairam-engineering-college-chennai/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700034100/Frame_11_1_gkk79s.png',
+		company: 'Code-Vipasana',
+		website: 'https://www.linkedin.com/company/code-vipassana/?originalSubdomain=in'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700034957/Frame_12_jvxi4u.png',
+		company: 'Flutter Conf India',
+		website: 'https://flutterconf.in/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700036304/Frame_13_3_zjbr90.png',
+		company: 'SingularityU Chennai',
+		website: 'https://www.linkedin.com/company/singularity-university-chennai-chapter/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700037655/Frame_13_5_pzuavl.png',
+		company: 'Web3Chennai',
+		website: 'https://twitter.com/web3chennai?lang=en'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700037873/Frame_13_6_iahiz3.png',
+		company: 'Social Winter of Code',
+		website: 'https://www.linkedin.com/company/socialwinterofcode/'
 	}
 ];
 
