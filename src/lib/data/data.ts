@@ -1316,7 +1316,12 @@ export const community_partners: Sponsors[] = [
 		website: 'https://gdsc.community.dev/sri-sairam-engineering-college-chennai/'
 	},
 	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700034100/Frame_11_1_gkk79s.png',
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700566653/Frame_11_4_spgh6m.png',
+		company: 'GDSC-Amirta',
+		website: 'https://gdsc.community.dev/amrita-vishwa-vidyapeetham-chennai-campus-chennai/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700563755/Frame_11_3_danzd4.png',
 		company: 'Code-Vipasana',
 		website: 'https://www.linkedin.com/company/code-vipassana/?originalSubdomain=in'
 	},
