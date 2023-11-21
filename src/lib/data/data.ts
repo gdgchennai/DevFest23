@@ -59,7 +59,7 @@ export const schedules: Day[] = [
 		summary: 'Auditorium',
 		timeslots: [
 			{
-				name: 'Registration',
+				name: 'Registration & networking',
 				description: null,
 				start: '8:00AM',
 				end: '10:00AM',
@@ -115,26 +115,9 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'TBD',
+				name: 'Welcome note - IIT Madras Research Park',
 				description: null,
 				start: '10:45AM',
-				end: '11:00PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
-				name: 'Break',
-				description: null,
-				start: '11:00PM',
 				end: '11:15PM',
 				speaker: [
 					{
@@ -149,10 +132,10 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'About WTM Chennai',
+				name: 'Sponsor announcement - TBD',
 				description: null,
-				start: '11:15AM',
-				end: '11:35AM',
+				start: '11:20AM',
+				end: '11:30AM',
 				speaker: [
 					{
 						name: '',
@@ -170,25 +153,45 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'The Unbearable Lightness of Writing CSS',
-				description: 'Shuvam Manna',
-				start: '11:40AM',
+				name: 'About WTM Chennai',
+				description: null,
+				start: '11:30AM',
+				end: '11:45AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {
+							twitter: '',
+							linkedin: '',
+							website: ''
+						}
+					}
+				]
+			},
+			{
+				name: 'Sponsor talk - TBD',
+				description: null,
+				start: '12:00PM',
 				end: '12:15PM',
 				speaker: [
 					{
-					name: 'Shuvam Manna',
-					image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699365625/devfest23/speakers/heqrlzbd6nnafo3kkq9t.webp',
-					company: 'SigNoz',
-					position: 'Product Designer',
-					description:
-						'Pushing around things on screen to feel something!',
-					tags: [''],
-					socials: {
-						twitter: 'https://twitter.com/shuvam360',
-						linkedin: 'https://www.linkedin.com/in/shuvam-manna',
-						website: 'https://shuvam.xyz'
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {
+							twitter: '',
+							linkedin: '',
+							website: ''
+						}
 					}
-				}
 				]
 			},
 			{
@@ -209,10 +212,32 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Creating SDKs for Multiple Platforms with KMP',
-				description: 'Rivu Chakraborty',
+				name: 'The Unbearable Lightness of Writing CSS',
+				description: 'Shuvam Manna',
 				start: '2:00PM',
 				end: '2:35PM',
+				speaker: [
+					{
+						name: 'Shuvam Manna',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699365625/devfest23/speakers/heqrlzbd6nnafo3kkq9t.webp',
+						company: 'SigNoz',
+						position: 'Product Designer',
+						description:
+							'Pushing around things on screen to feel something!',
+						tags: [''],
+						socials: {
+							twitter: 'https://twitter.com/shuvam360',
+							linkedin: 'https://www.linkedin.com/in/shuvam-manna',
+							website: 'https://shuvam.xyz'
+						}
+					}
+				]
+			},
+			{
+				name: 'Creating SDKs for Multiple Platforms with KMP',
+				description: 'Rivu Chakraborty',
+				start: '2:35PM',
+				end: '3:10PM',
 				speaker: [
 					{
 					name: 'Rivu Chakraborty',
@@ -233,83 +258,28 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Google Cybersecurity Certifications',
-				description: 'Manikandan Krishnamurthy',
-				start: '2:35PM',
-				end: '2:50PM',
+				name: 'TBD',
+				description: null,
+				start: '3:15PM',
+				end: '4:25PM',
 				speaker: [
 					{
-					name: 'Manikandan Krishnamurthy',
-					image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699366417/devfest23/speakers/objuxh4j7rgv9wgom3mj.webp',
-					company: 'Tata Consultancy Services',
-					position: 'GCP Architect',
+					name: '',
+					image: '',
+					company: '',
+					position: '',
 					description:
 						'',
 					tags: [''],
-					socials: {
-						twitter: 'www.twitter.com/manikandank276',
-						linkedin: 'https://www.linkedin.com/in/manikandank276',
-						website: 'https://www.manikandank276.com/'
-					}
+					socials: {}
 				}
-				]
-			},
-			{
-				name: 'TBD',
-				description: null,
-				start: '2:55PM',
-				end: '3:30PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
-				name: 'TBD',
-				description: null,
-				start: '3:30PM',
-				end: '3:45PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
-				name: 'TBD',
-				description: null,
-				start: '3:45PM',
-				end: '4:20PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
 				]
 			},
 			{
 				name: 'Day 1 closing note',
 				description: null,
-				start: '4:25PM',
-				end: '4:45PM',
+				start: '4:30PM',
+				end: '4:50PM',
 				speaker: [
 					{
 						name: '',
@@ -351,24 +321,7 @@ export const schedules: Day[] = [
 				name: '-',
 				description: null,
 				start: '8:00AM',
-				end: '11:15PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
-				name: 'TBD',
-				description: null,
-				start: '11:15AM',
-				end: '12:15PM',
+				end: '12:30PM',
 				speaker: [
 					{
 						name: '',
@@ -400,24 +353,39 @@ export const schedules: Day[] = [
 			},
 			{
 				name: 'No downtime migration of stateful servers',
-				description: 'Anush Arvind',
+				description: 'Anush & Arumugaraja',
 				start: '2:00PM',
 				end: '2:35PM',
 				speaker: [
 					{
-					name: 'Anush Arvind',
-					image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367337/devfest23/speakers/zbhnwdilxyfd2cd2ohio.webp',
-					company: 'Freshworks',
-					position: 'Senior Staff Engineer - Site Reliability',
-					description:
-						'',
-					tags: [''],
-					socials: {
-						twitter: 'https://twitter.com/anushshiva',
-						linkedin: 'https://www.linkedin.com/in/anush-arvind-0b5844a5',
-						website: ''
+						name: 'Anush Arvind',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367337/devfest23/speakers/zbhnwdilxyfd2cd2ohio.webp',
+						company: 'Freshworks',
+						position: 'Senior Staff Engineer - Site Reliability',
+						description:
+							'',
+						tags: [''],
+						socials: {
+							twitter: 'https://twitter.com/anushshiva',
+							linkedin: 'https://www.linkedin.com/in/anush-arvind-0b5844a5',
+							website: ''
+						}
+					},
+					{
+						name: 'Arumugaraja Thirumani',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1700556726/devfest23/speakers/gwlpnwbhaidw3xxh9xry.jpg',
+						company: 'Freshworks',
+						position: 'Staff Engineer - Site Reliability',
+						description:
+							'',
+						tags: [''],
+						socials: {
+							twitter: 'https://twitter.com/anushshiva',
+							linkedin: 'https://www.linkedin.com/in/anush-arvind-0b5844a5',
+							website: ''
+						}
 					}
-				}
+					
 				]
 			},
 			{
@@ -449,197 +417,30 @@ export const schedules: Day[] = [
 				end: '3:50PM',
 				speaker: [
 					{
-					name: 'Hariharan Chandrasekar',
-					image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367650/devfest23/speakers/fpbnf6prxnmul0owxr0j.webp',
-					company: 'Freshworks',
-					position: 'Software Engineer - Site Reliability',
-					description:
-						'',
-					tags: [''],
-					socials: {
-						twitter: '',
-						linkedin: 'https://www.linkedin.com/in/hariharan-chandrasekar-497b27187',
-						website: ''
-					}
-				}
-				]
-			},
-			{
-				name: 'TBD',
-				description: null,
-				start: '3:50PM',
-				end: '4:25PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
-				name: '-',
-				description: null,
-				start: '4:25PM',
-				end: '5:30PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			}
-		]
-	},
-	{
-		date: 'Dec 1',
-		dateTime: '2023-01-12',
-		track: 'Track 3',
-		summary: 'Special side track',
-		timeslots: [
-			{
-				name: '-',
-				description: null,
-				start: '8:00AM',
-				end: '11:40PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
-				name: 'A guide on making Android apps safe and secured',
-				description: 'Adit Lal',
-				start: '11:40AM',
-				end: '12:15PM',
-				speaker: [
-					{
-					name: 'Adit Lal',
-					image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367888/devfest23/speakers/aekv1vnlaokclf52emwy.webp',
-					company: 'Viacom18',
-					position: 'Software Engineer',
-					description:
-						'Adit is a Senior Android Manager/ Architect, currently working for Viacom18. He has been working in the industry for close to about 10+ years primarily helping build android mobile products and scaling them up. Some of his hobbies are Stargazing, Travel, and Landscape Photography.',
-					tags: ['GDE'],
-					socials: {}
-				}
-				]
-			},
-			{
-				name: 'Lunch',
-				description: null,
-				start: '12:30PM',
-				end: '2:00PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
-				name: 'Micro Sass - Convert your Side projects to Micro Sass MVP',
-				description: 'Anand NG',
-				start: '2:00PM',
-				end: '2:15PM',
-				speaker: [
-					{
-						name: 'Anand NG',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699366873/devfest23/speakers/stctvt9x8ycbhxa5xfte.webp',
+						name: 'Hariharan Chandrasekar',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367650/devfest23/speakers/fpbnf6prxnmul0owxr0j.webp',
 						company: 'Freshworks',
-						position: 'Lead Software Engineer - Frontend',
+						position: 'Software Engineer - Site Reliability',
 						description:
 							'',
 						tags: [''],
 						socials: {
 							twitter: '',
-							linkedin: 'www.linkedin.com/in/reachoutanandgopinath',
+							linkedin: 'https://www.linkedin.com/in/hariharan-chandrasekar-497b27187',
 							website: ''
 						}
-					}
-				]
-			},
-			{
-				name: 'Cloudlens - Cloud Console in your terminal',
-				description: 'Chinmay Naik',
-				start: '2:15PM',
-				end: '2:30PM',
-				speaker: [
+					},
 					{
-						name: 'Chinmay Naik',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367132/devfest23/speakers/rpsuytep4bmmc1udzaew.webp',
-						company: 'One2N',
-						position: 'Founder',
+						name: 'Amit Kumar',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1700556939/devfest23/speakers/vtjtfe5q6re9aqthuxmm.webp',
+						company: 'Freshworks',
+						position: 'Lead Software Engineer - Machine Learning',
 						description:
-							'Chinmay Naik is one of the co-founders of One2N where he helps companies solve their backend and reliability engineering problems. He writes pragmatic engineering stories on Twitter. Talk to him any day about psychology, playing percussion, and the Age of empires (apart from the usual backend and reliability engineering) and he won\'t disappoint you.',
-						tags: [''],
-						socials: {
-							twitter: 'https://twitter.com/chinmay185',
-							linkedin: 'https://www.linkedin.com/in/chinmay185',
-							website: ''
-						}
-					}
-				]
-			},
-			{
-				name: 'Architecting Events On Cloud',
-				description: 'Sasi Teja K',
-				start: '2:35PM',
-				end: '3:10PM',
-				speaker: [
-					{
-						name: 'Sasi Teja K',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699370556/devfest23/speakers/gxleoznsl4pcr2fa0prn.webp',
-						company: 'Confluent',
-						position: 'Engineer',
-						description: 'Meet Sasi, an Engineer at Confluent, the visionary creators of Kafka. With a rich professional journey that includes roles at AWS and Cisco, Sasi is a seasoned expert in Kafka, Cloud technologies, and DevOps. He excels in designing and implementing real-time data streaming applications. A certified AWS Solutions Architect Associate, Sasi\'s passion for data science and machine learning is evident through a research paper in time series analytics. A dedicated community enthusiast, he\'s been an integral part of the GDG (Google Developer Groups) community since 2018',
-						tags: [''],
-						socials: {
-							twitter: 'https://twitter.com/KamsuSasi',
-							linkedin: 'https://www.linkedin.com/in/kamsusasiteja',
-							website: ''
-						}
-					}
-				]
-			},
-			{
-				name: 'Writing a Custom Kubernetes Controller with Golang',
-				description: 'Animesh Rastogi',
-				start: '3:15PM',
-				end: '3:50PM',
-				speaker: [
-					{
-						name: 'Animesh Rastogi',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699370771/devfest23/speakers/vmndppmkkbqocfaydfsp.webp',
-						company: 'Searce Inc',
-						position: 'Technical Account Manager',
-						description: 'Animesh is a multi cloud certified DevOps Engineer and Cloud Architect. He works with Enterprise clients building highly complex systems that scale to millions of users.\
-						Animesh is a frequent speaker at meetups and conferences and writes blogs on the latest technologies.',
+							'',
 						tags: [''],
 						socials: {
 							twitter: '',
-							linkedin: 'https://www.linkedin.com/in/animeshrastogi54',
+							linkedin: 'https://www.linkedin.com/in/amit-kumar-47007a113',
 							website: ''
 						}
 					}
@@ -670,7 +471,171 @@ export const schedules: Day[] = [
 				name: '-',
 				description: null,
 				start: '4:05PM',
-				end: '5:30PM',
+				end: '6:00PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			}
+		]
+	},
+	{
+		date: 'Dec 1',
+		dateTime: '2023-01-12',
+		track: 'Track 3',
+		summary: 'Special side track',
+		timeslots: [
+			{
+				name: '-',
+				description: null,
+				start: '8:00AM',
+				end: '12:30PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Lunch',
+				description: null,
+				start: '12:30PM',
+				end: '2:00PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'A guide on making Android apps safe and secured',
+				description: 'Adit Lal',
+				start: '2:00PM',
+				end: '2:35PM',
+				speaker: [
+					{
+						name: 'Adit Lal',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367888/devfest23/speakers/aekv1vnlaokclf52emwy.webp',
+						company: 'Viacom18',
+						position: 'Software Engineer',
+						description:
+							'Adit is a Senior Android Manager/ Architect, currently working for Viacom18. He has been working in the industry for close to about 10+ years primarily helping build android mobile products and scaling them up. Some of his hobbies are Stargazing, Travel, and Landscape Photography.',
+						tags: ['GDE'],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Architecting Events On Cloud',
+				description: 'Sasi Teja K',
+				start: '2:35PM',
+				end: '3:10PM',
+				speaker: [
+					{
+						name: 'Sasi Teja K',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699370556/devfest23/speakers/gxleoznsl4pcr2fa0prn.webp',
+						company: 'Confluent',
+						position: 'Engineer',
+						description: 'Meet Sasi, an Engineer at Confluent, the visionary creators of Kafka. With a rich professional journey that includes roles at AWS and Cisco, Sasi is a seasoned expert in Kafka, Cloud technologies, and DevOps. He excels in designing and implementing real-time data streaming applications. A certified AWS Solutions Architect Associate, Sasi\'s passion for data science and machine learning is evident through a research paper in time series analytics. A dedicated community enthusiast, he\'s been an integral part of the GDG (Google Developer Groups) community since 2018',
+						tags: [''],
+						socials: {
+							twitter: 'https://twitter.com/KamsuSasi',
+							linkedin: 'https://www.linkedin.com/in/kamsusasiteja',
+							website: ''
+						}
+					}
+				]
+			},
+			{
+				name: 'Micro Sass - Convert your Side projects to Micro Sass MVP',
+				description: 'Anand NG',
+				start: '3:15PM',
+				end: '3:30PM',
+				speaker: [
+					{
+						name: 'Anand NG',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699366873/devfest23/speakers/stctvt9x8ycbhxa5xfte.webp',
+						company: 'Freshworks',
+						position: 'Lead Software Engineer - Frontend',
+						description:
+							'',
+						tags: [''],
+						socials: {
+							twitter: '',
+							linkedin: 'www.linkedin.com/in/reachoutanandgopinath',
+							website: ''
+						}
+					}
+				]
+			},
+			{
+				name: 'Cloudlens - Cloud Console in your terminal',
+				description: 'Chinmay Naik',
+				start: '3:30PM',
+				end: '3:45PM',
+				speaker: [
+					{
+						name: 'Chinmay Naik',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367132/devfest23/speakers/rpsuytep4bmmc1udzaew.webp',
+						company: 'One2N',
+						position: 'Founder',
+						description:
+							'Chinmay Naik is one of the co-founders of One2N where he helps companies solve their backend and reliability engineering problems. He writes pragmatic engineering stories on Twitter. Talk to him any day about psychology, playing percussion, and the Age of empires (apart from the usual backend and reliability engineering) and he won\'t disappoint you.',
+						tags: [''],
+						socials: {
+							twitter: 'https://twitter.com/chinmay185',
+							linkedin: 'https://www.linkedin.com/in/chinmay185',
+							website: ''
+						}
+					}
+				]
+			},
+			{
+				name: 'Writing a Custom Kubernetes Controller with Golang',
+				description: 'Animesh Rastogi',
+				start: '3:50PM',
+				end: '4:25PM',
+				speaker: [
+					{
+						name: 'Animesh Rastogi',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699370771/devfest23/speakers/vmndppmkkbqocfaydfsp.webp',
+						company: 'Searce Inc',
+						position: 'Technical Account Manager',
+						description: 'Animesh is a multi cloud certified DevOps Engineer and Cloud Architect. He works with Enterprise clients building highly complex systems that scale to millions of users.\
+						Animesh is a frequent speaker at meetups and conferences and writes blogs on the latest technologies.',
+						tags: [''],
+						socials: {
+							twitter: '',
+							linkedin: 'https://www.linkedin.com/in/animeshrastogi54',
+							website: ''
+						}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: null,
+				start: '4:25PM',
+				end: '6:00PM',
 				speaker: [
 					{
 						name: '',
@@ -691,6 +656,23 @@ export const schedules: Day[] = [
 		track: 'Track 1',
 		summary: 'Auditorium',
 		timeslots: [
+			{
+				name: 'Networking',
+				description: null,
+				start: '8:00AM',
+				end: '9:30AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
 			{
 				name: 'Opening Note',
 				description: null,
@@ -730,10 +712,27 @@ export const schedules: Day[] = [
 				]
 			},
 			{
+				name: 'Sponsor talk - TBD',
+				description: null,
+				start: '10:15AM',
+				end: '10:30AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
 				name: 'Break',
 				description: null,
-				start: '10:15PM',
-				end: '10:45PM',
+				start: '10:30AM',
+				end: '10:45AM',
 				speaker: [
 					{
 						name: '',
@@ -769,19 +768,23 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'TBD',
-				description: null,
-				start: '11:25PM',
+				name: 'The unfair advantage of PaLM LLM versatility for Developers and Businesses',
+				description: 'S. K. Roshan',
+				start: '11:25AM',
 				end: '12:00PM',
 				speaker: [
 					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
+						name: 'S. K. Roshan',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699420800/devfest23/speakers/l7s9dfwr6oc4lnl8bjj7.webp',
+						company: 'Veloit AI',
+						position: 'Founder',
+						description: 'Roshan is a serial entrepreneur who builds innovative solutions and has been the founder and technical lead at multiple startups and leading them to success.',
 						tags: [''],
-						socials: {}
+						socials: {
+							twitter: '',
+							linkedin: 'https://linkedin.com/in/skroshan',
+							website: ''
+						}
 					}
 				]
 			},
@@ -957,7 +960,24 @@ export const schedules: Day[] = [
 			{
 				name: '-',
 				description: null,
-				start: '9:30AM',
+				start: '8:00AM',
+				end: '10:30AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Break',
+				description: null,
+				start: '10:30AM',
 				end: '10:45AM',
 				speaker: [
 					{
@@ -1055,7 +1075,7 @@ export const schedules: Day[] = [
 				name: 'Vertex AI',
 				description: 'Bhaarat Krishnan J',
 				start: '2:40PM',
-				end: '4:20PM',
+				end: '4:10PM',
 				speaker: [
 					{
 						name: 'Bhaarat Krishnan J',
@@ -1075,7 +1095,7 @@ export const schedules: Day[] = [
 			{
 				name: '-',
 				description: null,
-				start: '4:20PM',
+				start: '4:10PM',
 				end: '6:00PM',
 				speaker: [
 					{
@@ -1100,7 +1120,24 @@ export const schedules: Day[] = [
 			{
 				name: '-',
 				description: null,
-				start: '9:30AM',
+				start: '8:00AM',
+				end: '10:30AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Break',
+				description: null,
+				start: '10:30AM',
 				end: '10:45AM',
 				speaker: [
 					{
@@ -1136,7 +1173,7 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: "From Idea to Performance Impact: The Rise of Accelerated Generative AI with Intel's OpenVINO™ Toolkit",
+				name: "Pixels to Perfection: Building the Future of Visual Applications by Supercharging Generative AI featuring FILM,  Latent Consistency Models (LCMs), and Beyond using OpenVINO™",
 				description: 'Anisha Udayakumar',
 				start: '11:25PM',
 				end: '12:40PM',
@@ -1195,23 +1232,19 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'The unfair advantage of PaLM LLM versatility for Developers and Businesses',
-				description: 'S. K. Roshan',
+				name: 'TBD',
+				description: null,
 				start: '2:40PM',
 				end: '4:20PM',
 				speaker: [
 					{
-						name: 'S. K. Roshan',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699420800/devfest23/speakers/l7s9dfwr6oc4lnl8bjj7.webp',
-						company: 'Veloit AI',
-						position: 'Founder',
-						description: 'Roshan is a serial entrepreneur who builds innovative solutions and has been the founder and technical lead at multiple startups and leading them to success.',
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
 						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: 'https://linkedin.com/in/skroshan',
-							website: ''
-						}
+						socials: {}
 					}
 				]
 			},
