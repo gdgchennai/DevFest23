@@ -1290,6 +1290,11 @@ export const sponsors: Sponsors[] = [
 		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700844794/devfest/Sagent_pmouwy.webp',
 		company: 'Sagent',
 		website: 'https://sagent.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700846057/devfest/TechConative_1_ylpkhl.webp',
+		company: 'TechConative',
+		website: 'https://techconative.com/	'
 	}
 ];
 
