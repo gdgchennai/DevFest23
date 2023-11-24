@@ -1275,6 +1275,21 @@ export const sponsors: Sponsors[] = [
 		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699294086/devfest23/logos/wvvaqjxsyeo57i972e3q.webp',
 		company: 'Google for Developer',
 		website: 'https://developers.google.com'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700844794/devfest/rezoomex_v2iv8t.webp',
+		company: 'Rezoomex',
+		website: 'https://rezoomex.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700844794/devfest/cloud_native_ipehy5.webp',
+		company: 'Cloud Native Computing Foundation',
+		website: 'https://www.cncf.io/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700844794/devfest/Sagent_pmouwy.webp',
+		company: 'Sagent',
+		website: 'https://sagent.com/'
 	}
 ];
 
