@@ -115,22 +115,22 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Sponsor announcement - TBD',
-				description: null,
+				name: 'Sponsor announcement',
+				description: 'Rezoomex',
 				start: '10:45AM',
 				end: '10:55AM',
 				speaker: [
 					{
-						name: '',
+						name: 'Rezoomex',
 						image: '',
 						company: '',
 						position: '',
-						description: '',
-						tags: [''],
+						description: 'Rezoomex NFT Marketplace is an innovative platform that allows software professionals to monetize their capabilities and skills by turning their resumes into unique digital assets. These assets, or NFTs, are stored on a blockchain, which enables users to prove ownership and authenticity of their resumes. In this marketplace, smart contracts govern the way individuals and companies safely transact and build reputation. Rezoomex NFT Marketplace is run by a DAO,- Decentralized Autonomous Organization providing unbiased way to search, discover and engage.',
+						tags: ['Sponsor'],
 						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
+							twitter: 'https://twitter.com/Rezoomex',
+							linkedin: 'https://www.linkedin.com/company/rezoomex/',
+							website: 'https://rezoomex.com/'
 						}
 					}
 				]
@@ -1167,7 +1167,7 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Vertex AI',
+				name: 'Google Cloud Vertex AI and Svelte Kit: Vertex Summarizer',
 				description: 'Bhaarat Krishnan J',
 				start: '2:40PM',
 				end: '4:10PM',
@@ -1178,7 +1178,7 @@ export const schedules: Day[] = [
 						company: 'Easwari Engineering College',
 						position: 'Student',
 						description: 'Bhaarat is a Full Stack Developer, GFG EEC Student Chapter Leader, and Mobile App Facilitator at GDSC EEC. He is also a core team member of Code Vipassana and an Azure Cloud Practitioner. Additionally, he serves as the VP at EEC TECH FORUM and Treasurer at CSI EEC. His passion is advancing technology and fostering community growth.',
-						tags: ['Community Partner'],
+						tags: ['Community Partner', 'Code Vipassana'],
 						socials: {
 							twitter: '',
 							linkedin: 'https://www.linkedin.com/in/bhaarat-krishnan',
