@@ -115,27 +115,10 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Welcome note - IIT Madras Research Park',
-				description: null,
-				start: '10:45AM',
-				end: '11:15PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
 				name: 'Sponsor announcement - TBD',
 				description: null,
-				start: '11:20AM',
-				end: '11:30AM',
+				start: '10:45AM',
+				end: '10:55AM',
 				speaker: [
 					{
 						name: '',
@@ -155,8 +138,8 @@ export const schedules: Day[] = [
 			{
 				name: 'About WTM Chennai',
 				description: null,
-				start: '11:30AM',
-				end: '11:45AM',
+				start: '11:00AM',
+				end: '11:15AM',
 				speaker: [
 					{
 						name: '',
@@ -174,10 +157,10 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Sponsor talk - TBD',
+				name: 'About Google for startups',
 				description: null,
-				start: '12:00PM',
-				end: '12:15PM',
+				start: '11:15AM',
+				end: '11:30AM',
 				speaker: [
 					{
 						name: '',
@@ -190,6 +173,27 @@ export const schedules: Day[] = [
 							twitter: '',
 							linkedin: '',
 							website: ''
+						}
+					}
+				]
+			},
+			{
+				name: 'CNCF: Fostering the growth and evolution of the cloud native ecosystem',
+				description: 'Senthil Raja Chermapandian',
+				start: '11:30PM',
+				end: '11:45PM',
+				speaker: [
+					{
+						name: 'Senthil Raja Chermapandian',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1700907698/devfest23/speakers/1588536421735_rsrohx.jpg',
+						company: 'Ericsson',
+						position: 'Principal Software Engineer',
+						description: 'Ever since its inception in 2015, The Cloud Native Computing Foundation has been making cloud native computing ubiquitous. In this talk, you\'ll learn about CNCF\'s charter and how CNCF successfully fosters the growth and evolution of the cloud native ecosystem.',
+						tags: ['Sponsor'],
+						socials: {
+							twitter: '',
+							linkedin: 'https://www.linkedin.com/in/senthilrch/',
+							website: 'https://cncf.io'
 						}
 					}
 				]
@@ -318,10 +322,10 @@ export const schedules: Day[] = [
 		summary: 'Special side track',
 		timeslots: [
 			{
-				name: '-',
+				name: 'Registration & networking',
 				description: null,
 				start: '8:00AM',
-				end: '12:30PM',
+				end: '10:00AM',
 				speaker: [
 					{
 						name: '',
@@ -331,6 +335,67 @@ export const schedules: Day[] = [
 						description: '',
 						tags: [''],
 						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: null,
+				start: '10:00AM',
+				end: '12:00PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Micro Sass - Convert your Side projects to Micro Sass MVP',
+				description: 'Anand NG',
+				start: '12:00PM',
+				end: '12:15PM',
+				speaker: [
+					{
+						name: 'Anand NG',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699366873/devfest23/speakers/stctvt9x8ycbhxa5xfte.webp',
+						company: 'Freshworks',
+						position: 'Lead Software Engineer - Frontend',
+						description:
+							'',
+						tags: [''],
+						socials: {
+							twitter: '',
+							linkedin: 'www.linkedin.com/in/reachoutanandgopinath',
+							website: ''
+						}
+					}
+				]
+			},
+			{
+				name: 'Cloudlens - Cloud Console in your terminal',
+				description: 'Chinmay Naik',
+				start: '12:15PM',
+				end: '12:30PM',
+				speaker: [
+					{
+						name: 'Chinmay Naik',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367132/devfest23/speakers/rpsuytep4bmmc1udzaew.webp',
+						company: 'One2N',
+						position: 'Founder',
+						description:
+							'Chinmay Naik is one of the co-founders of One2N where he helps companies solve their backend and reliability engineering problems. He writes pragmatic engineering stories on Twitter. Talk to him any day about psychology, playing percussion, and the Age of empires (apart from the usual backend and reliability engineering) and he won\'t disappoint you.',
+						tags: [''],
+						socials: {
+							twitter: 'https://twitter.com/chinmay185',
+							linkedin: 'https://www.linkedin.com/in/chinmay185',
+							website: ''
+						}
 					}
 				]
 			},
@@ -471,6 +536,23 @@ export const schedules: Day[] = [
 				name: '-',
 				description: null,
 				start: '4:05PM',
+				end: '5:00PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Networking',
+				description: null,
+				start: '5:00PM',
 				end: '6:00PM',
 				speaker: [
 					{
@@ -493,10 +575,27 @@ export const schedules: Day[] = [
 		summary: 'Special side track',
 		timeslots: [
 			{
-				name: '-',
+				name: 'Registration & networking',
 				description: null,
 				start: '8:00AM',
-				end: '12:30PM',
+				end: '10:00AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: null,
+				start: '10:00AM',
+				end: '12:30AM',
 				speaker: [
 					{
 						name: '',
@@ -545,75 +644,10 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Architecting Events On Cloud',
-				description: 'Sasi Teja K',
-				start: '2:35PM',
-				end: '3:10PM',
-				speaker: [
-					{
-						name: 'Sasi Teja K',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699370556/devfest23/speakers/gxleoznsl4pcr2fa0prn.webp',
-						company: 'Confluent',
-						position: 'Engineer',
-						description: 'Meet Sasi, an Engineer at Confluent, the visionary creators of Kafka. With a rich professional journey that includes roles at AWS and Cisco, Sasi is a seasoned expert in Kafka, Cloud technologies, and DevOps. He excels in designing and implementing real-time data streaming applications. A certified AWS Solutions Architect Associate, Sasi\'s passion for data science and machine learning is evident through a research paper in time series analytics. A dedicated community enthusiast, he\'s been an integral part of the GDG (Google Developer Groups) community since 2018',
-						tags: [''],
-						socials: {
-							twitter: 'https://twitter.com/KamsuSasi',
-							linkedin: 'https://www.linkedin.com/in/kamsusasiteja',
-							website: ''
-						}
-					}
-				]
-			},
-			{
-				name: 'Micro Sass - Convert your Side projects to Micro Sass MVP',
-				description: 'Anand NG',
-				start: '3:15PM',
-				end: '3:30PM',
-				speaker: [
-					{
-						name: 'Anand NG',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699366873/devfest23/speakers/stctvt9x8ycbhxa5xfte.webp',
-						company: 'Freshworks',
-						position: 'Lead Software Engineer - Frontend',
-						description:
-							'',
-						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: 'www.linkedin.com/in/reachoutanandgopinath',
-							website: ''
-						}
-					}
-				]
-			},
-			{
-				name: 'Cloudlens - Cloud Console in your terminal',
-				description: 'Chinmay Naik',
-				start: '3:30PM',
-				end: '3:45PM',
-				speaker: [
-					{
-						name: 'Chinmay Naik',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699367132/devfest23/speakers/rpsuytep4bmmc1udzaew.webp',
-						company: 'One2N',
-						position: 'Founder',
-						description:
-							'Chinmay Naik is one of the co-founders of One2N where he helps companies solve their backend and reliability engineering problems. He writes pragmatic engineering stories on Twitter. Talk to him any day about psychology, playing percussion, and the Age of empires (apart from the usual backend and reliability engineering) and he won\'t disappoint you.',
-						tags: [''],
-						socials: {
-							twitter: 'https://twitter.com/chinmay185',
-							linkedin: 'https://www.linkedin.com/in/chinmay185',
-							website: ''
-						}
-					}
-				]
-			},
-			{
 				name: 'Writing a Custom Kubernetes Controller with Golang',
 				description: 'Animesh Rastogi',
-				start: '3:50PM',
-				end: '4:25PM',
+				start: '2:35PM',
+				end: '3:10PM',
 				speaker: [
 					{
 						name: 'Animesh Rastogi',
@@ -632,9 +666,52 @@ export const schedules: Day[] = [
 				]
 			},
 			{
+				name: 'Cloud Study Jams',
+				description: 'Jenister & Manikandan',
+				start: '3:15PM',
+				end: '4:15PM',
+				speaker: [
+					{
+						name: 'Jenister',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					},
+					{
+						name: 'Manikandan Krishnamurthy',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699366417/devfest23/speakers/objuxh4j7rgv9wgom3mj.webp',
+						company: 'Tata Consultancy Services',
+						position: 'GCP Architect',
+						description: 'Manikandan is GCP Architect at TCS with approximately 14 years of experience in the IT industry, including around 5 years of professional experience with Google Cloud. He is proficient in designing, implementing, and troubleshooting Google Cloud Platform (GCP) solutions. He is Passionate about the cloud community and committed to helping others learn about and use Google Cloud Platform (GCP).',
+						tags: ['GDG Cloud Organizer'],
+						socials: {}
+					}
+				]
+			},
+			{
 				name: '-',
 				description: null,
-				start: '4:25PM',
+				start: '4:15PM',
+				end: '5:00PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Networking',
+				description: null,
+				start: '5:00PM',
 				end: '6:00PM',
 				speaker: [
 					{
@@ -712,19 +789,22 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Sponsor talk - TBD',
-				description: null,
+				name: 'Accelerating Digital Transformation using Cloud & AI',
+				description: 'Suresh Viswanathan',
 				start: '10:15AM',
 				end: '10:30AM',
 				speaker: [
 					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
+						name: 'Suresh Viswanathan',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1700913151/devfest23/speakers/Suresh_V_Headshot_vp3njq.jpg',
+						company: 'Sagent',
+						position: 'Vice President - Architecture',
+						description: 'Technologist with extensive experience in Digital transformation initiatives ranging from Retail-Ecommerce to Mortgage.  He works as an Architect at Sagent M&C India Private Limited architecting industry first cloud native core leveraging Microservices and Event driven architecture.',
+						tags: ['Sponsor'],
+						socials: {
+							linkedin: 'https://www.linkedin.com/in/suresh-viswanathan80/',
+							website: 'https://sagent.com'
+						}
 					}
 				]
 			},
@@ -761,7 +841,6 @@ export const schedules: Day[] = [
 						socials: {
 							twitter: 'https://twitter.com/sumanghosts',
 							linkedin: 'https://linkedin.com/in/ghoshsuman0129',
-							website: '',
 							github: 'https://github.com/ghoshsuman845'
 						}
 					}
@@ -789,19 +868,22 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'TBD',
-				description: null,
-				start: '12:00PM',
-				end: '12:35PM',
+				name: "Using Jetpack's Credential Manager API for safer and simpler sign-in",
+				description: 'Priya Sindkar',
+				start: '2:00PM',
+				end: '2:35PM',
 				speaker: [
 					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
+						name: 'Priya Sindkar',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699371784/devfest23/speakers/nkxgag6jxtqg7yqk6wyb.webp',
+						company: 'Novumlogic Technologies',
+						position: 'Senior Android Developer',
+						description: 'Priya is a Sr. Android Developer with 8+ years of experience in mobile app development. She is in love with Kotlin and is passionate about building android apps. She believes in neat code and a clean architecture. She is a technical blogger, a public speaker, and holds a passion for the Android community.',
 						tags: [''],
-						socials: {}
+						socials: {
+							twitter: 'https://twitter.com/SindkarP',
+							linkedin: 'https://www.linkedin.com/in/sindkarp'
+						}
 					}
 				]
 			},
@@ -823,23 +905,19 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: "Using Jetpack's Credential Manager API for safer and simpler sign-in",
-				description: 'Priya Sindkar',
+				name: "IITM Research Park and the startup ecosystem",
+				description: 'Prof. Ashok Jhunjhunwala',
 				start: '2:00PM',
 				end: '2:35PM',
 				speaker: [
 					{
-						name: 'Priya Sindkar',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699371784/devfest23/speakers/nkxgag6jxtqg7yqk6wyb.webp',
-						company: 'Novumlogic Technologies',
-						position: 'Senior Android Developer',
-						description: 'Priya is a Sr. Android Developer with 8+ years of experience in mobile app development. She is in love with Kotlin and is passionate about building android apps. She believes in neat code and a clean architecture. She is a technical blogger, a public speaker, and holds a passion for the Android community.',
-						tags: [''],
-						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
-						}
+						name: 'Prof. Ashok Jhunjhunwala',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1700913796/devfest23/speakers/ashok_pkpo6z.jpg',
+						company: 'IITM Research Park & IITM Incubation Cell',
+						position: 'President',
+						description: '',
+						tags: ['Ecosystem Partner'],
+						socials: {}
 					}
 				]
 			},
@@ -899,10 +977,10 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'About Google for Startups',
+				name: 'Community Partners Introduction',
 				description: null,
 				start: '3:55PM',
-				end: '4:15PM',
+				end: '4:25PM',
 				speaker: [
 					{
 						name: '',
@@ -958,9 +1036,26 @@ export const schedules: Day[] = [
 		summary: 'Special side track',
 		timeslots: [
 			{
-				name: '-',
+				name: 'Networking',
 				description: null,
 				start: '8:00AM',
+				end: '9:30AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: null,
+				start: '9:30AM',
 				end: '10:30AM',
 				speaker: [
 					{
@@ -1096,6 +1191,23 @@ export const schedules: Day[] = [
 				name: '-',
 				description: null,
 				start: '4:10PM',
+				end: '5:30PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Networking',
+				description: null,
+				start: '5:30PM',
 				end: '6:00PM',
 				speaker: [
 					{
@@ -1118,9 +1230,26 @@ export const schedules: Day[] = [
 		summary: 'Special side track',
 		timeslots: [
 			{
-				name: '-',
+				name: 'Networking',
 				description: null,
 				start: '8:00AM',
+				end: '9:30AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: null,
+				start: '9:30AM',
 				end: '10:30AM',
 				speaker: [
 					{
@@ -1232,7 +1361,7 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'TBD',
+				name: 'WTM Pitchathon',
 				description: null,
 				start: '2:40PM',
 				end: '4:20PM',
@@ -1252,6 +1381,23 @@ export const schedules: Day[] = [
 				name: '-',
 				description: null,
 				start: '4:20PM',
+				end: '5:30PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: 'Networking',
+				description: null,
+				start: '5:30PM',
 				end: '6:00PM',
 				speaker: [
 					{
