@@ -33,8 +33,7 @@
 	</h1>
 	<p class="text-center max-w-lg">
 		Come. Learn, Network and Celebrate with Google Developer Groups and Google Developer Experts,
-		learn to hack on Android, Chrome and Web while you are at it.<br/>
-		<strong>Note: Agenda is subject to change </strong>
+		learn to hack on Android, Chrome and Web while you are at it.
 	</p>
 
 	<div id="tabs" class="sticky top-8 left-0 border border-gray-100 w-fit rounded-full bg-gray-100">
