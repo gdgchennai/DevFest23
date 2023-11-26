@@ -180,8 +180,8 @@ export const schedules: Day[] = [
 			{
 				name: 'CNCF: Fostering the growth and evolution of the cloud native ecosystem',
 				description: 'Senthil Raja Chermapandian',
-				start: '11:30PM',
-				end: '11:45PM',
+				start: '11:30AM',
+				end: '11:45AM',
 				speaker: [
 					{
 						name: 'Senthil Raja Chermapandian',
