@@ -1438,9 +1438,9 @@ export const sponsors: Sponsors[] = [
 		website: 'https://sagent.com/'
 	},
 	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700846057/devfest/TechConative_1_ylpkhl.webp',
-		company: 'TechConative',
-		website: 'https://techconative.com/	'
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701081605/devfest/Cyces-_2__rz6wsg.webp',
+		company: 'Cyces',
+		website: 'https://cyces.co/'
 	}
 ];
 
@@ -1510,6 +1510,21 @@ export const community_partners: Sponsors[] = [
 		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700037873/Frame_13_6_iahiz3.png',
 		company: 'Social Winter of Code',
 		website: 'https://www.linkedin.com/company/socialwinterofcode/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700844794/devfest/cloud_native_ipehy5.webp',
+		company: 'Cloud Native Computing Foundation',
+		website: 'https://www.cncf.io/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701080204/devfest/Github_g2yt7p.webp',
+		company: 'Github',
+		website: 'https://www.github.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701084062/devfest/AZ_Conf_kroxfk.png',
+		company: 'Azure Conf',
+		website: 'https://azconf.dev/'
 	}
 ];
 
@@ -1524,5 +1539,30 @@ export const corporate_partners: Sponsors[] = [
 		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699292249/devfest23/logos/tlxjery5yfkowizsxiwu.webp',
 		company: 'Jetbrains',
 		website: 'https://jetbrains.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083532/devfest/SHEROES_y8ilpw.png',
+		company: 'SHEROES',
+		website: 'https://sheroes.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083530/devfest/Mahila_Money_r2bumk.png',
+		company: 'Mahila Money',
+		website: 'https://mahila.money/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083528/devfest/Google_For_Startups_1_cfzjiw.png',
+		company: 'Google For Startups',
+		website: 'https://startup.google.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083527/devfest/IITMR_etjpbc.png',
+		company: 'IITM Research Park',
+		website: 'https://respark.iitm.ac.in/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083525/devfest/SBI_k7gri5.png',
+		company: 'SBI',
+		website: 'https://www.linkedin.com/showcase/sbi-start-up-branch-chennai/?originalSubdomain=in'
 	}
 ];
