@@ -77,7 +77,7 @@ export const schedules: Day[] = [
 			},
 			{
 				name: 'Welcome Note',
-				description: '',
+				description: '-',
 				start: '10:00AM',
 				end: '10:15AM',
 				speaker: [
@@ -115,29 +115,29 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Sponsor announcement',
-				description: 'Rezoomex',
+				name: 'Google for Developers',
+				description: '-',
 				start: '10:45AM',
-				end: '10:55AM',
+				end: '11:00AM',
 				speaker: [
 					{
-						name: 'Rezoomex',
+						name: '',
 						image: '',
 						company: '',
 						position: '',
-						description: 'Rezoomex NFT Marketplace is an innovative platform that allows software professionals to monetize their capabilities and skills by turning their resumes into unique digital assets. These assets, or NFTs, are stored on a blockchain, which enables users to prove ownership and authenticity of their resumes. In this marketplace, smart contracts govern the way individuals and companies safely transact and build reputation. Rezoomex NFT Marketplace is run by a DAO,- Decentralized Autonomous Organization providing unbiased way to search, discover and engage.',
+						description: '',
 						tags: ['Sponsor'],
 						socials: {
-							twitter: 'https://twitter.com/Rezoomex',
-							linkedin: 'https://www.linkedin.com/company/rezoomex/',
-							website: 'https://rezoomex.com/'
+							twitter: '',
+							linkedin: '',
+							website: ''
 						}
 					}
 				]
 			},
 			{
 				name: 'About WTM Chennai',
-				description: null,
+				description: '-',
 				start: '11:00AM',
 				end: '11:15AM',
 				speaker: [
@@ -157,29 +157,29 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'About Google for startups',
-				description: null,
+				name: 'Sponsor announcement',
+				description: 'Rezoomex',
 				start: '11:15AM',
-				end: '11:30AM',
+				end: '11:25AM',
 				speaker: [
 					{
-						name: '',
+						name: 'Rezoomex',
 						image: '',
 						company: '',
 						position: '',
-						description: '',
-						tags: [''],
+						description: 'Rezoomex NFT Marketplace is an innovative platform that allows software professionals to monetize their capabilities and skills by turning their resumes into unique digital assets. These assets, or NFTs, are stored on a blockchain, which enables users to prove ownership and authenticity of their resumes. In this marketplace, smart contracts govern the way individuals and companies safely transact and build reputation. Rezoomex NFT Marketplace is run by a DAO,- Decentralized Autonomous Organization providing unbiased way to search, discover and engage.',
+						tags: ['Sponsor'],
 						socials: {
-							twitter: '',
-							linkedin: '',
-							website: ''
+							twitter: 'https://twitter.com/Rezoomex',
+							linkedin: 'https://www.linkedin.com/company/rezoomex/',
+							website: 'https://rezoomex.com/'
 						}
 					}
 				]
 			},
 			{
 				name: 'CNCF: Fostering the growth and evolution of the cloud native ecosystem',
-				description: 'Senthil Raja Chermapandian',
+				description: 'Senthil Raja',
 				start: '11:30AM',
 				end: '11:45AM',
 				speaker: [
@@ -194,6 +194,26 @@ export const schedules: Day[] = [
 							twitter: '',
 							linkedin: 'https://www.linkedin.com/in/senthilrch/',
 							website: 'https://cncf.io'
+						}
+					}
+				]
+			},
+			{
+				name: 'From Protocols to Product: Radical New Take on The Future of Digital Economy',
+				description: 'Ansha Dixit',
+				start: '11:55AM',
+				end: '12:30PM',
+				speaker: [
+					{
+						name: 'Ansha Dixit',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1701073612/devfest23/speakers/IMG_0744_Copy_ug9dox.jpg',
+						company: 'FIDE (previously Beckn Foundation)',
+						position: 'Community Head & Steward – Beckn Open Collective',
+						description: '',
+						tags: [''],
+						socials: {
+							twitter: 'https://twitter.com/anshadixit',
+							linkedin: 'https://www.linkedin.com/in/anshadixit',
 						}
 					}
 				]
@@ -262,7 +282,7 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'TBD',
+				name: 'VC Panel - TBD',
 				description: null,
 				start: '3:15PM',
 				end: '4:25PM',
@@ -340,9 +360,94 @@ export const schedules: Day[] = [
 			},
 			{
 				name: '-',
-				description: null,
+				description: '-',
 				start: '10:00AM',
-				end: '12:00PM',
+				end: '10:15AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '10:15AM',
+				end: '10:45AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: null,
+				start: '10:45AM',
+				end: '11:00AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: null,
+				start: '11:00AM',
+				end: '11:15AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '11:15AM',
+				end: '11:25AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '11:30AM',
+				end: '11:45AM',
 				speaker: [
 					{
 						name: '',
@@ -533,23 +638,6 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: '-',
-				description: null,
-				start: '4:05PM',
-				end: '5:00PM',
-				speaker: [
-					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
-						socials: {}
-					}
-				]
-			},
-			{
 				name: 'Networking',
 				description: null,
 				start: '5:00PM',
@@ -593,9 +681,128 @@ export const schedules: Day[] = [
 			},
 			{
 				name: '-',
-				description: null,
+				description: '-',
 				start: '10:00AM',
-				end: '12:30AM',
+				end: '10:15AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '10:15AM',
+				end: '10:45AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '10:45AM',
+				end: '11:00AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '11:00AM',
+				end: '11:15AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '11:15AM',
+				end: '11:25AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '11:30AM',
+				end: '11:45AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '11:45AM',
+				end: '12:00PM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '12:00PM',
+				end: '12:30PM',
 				speaker: [
 					{
 						name: '',
@@ -870,8 +1077,8 @@ export const schedules: Day[] = [
 			{
 				name: "Using Jetpack's Credential Manager API for safer and simpler sign-in",
 				description: 'Priya Sindkar',
-				start: '2:00PM',
-				end: '2:35PM',
+				start: '12:00PM',
+				end: '12:35PM',
 				speaker: [
 					{
 						name: 'Priya Sindkar',
@@ -1054,8 +1261,42 @@ export const schedules: Day[] = [
 			},
 			{
 				name: '-',
-				description: null,
+				description: '-',
 				start: '9:30AM',
+				end: '9:45AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '9:45AM',
+				end: '10:15AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '10:15AM',
 				end: '10:30AM',
 				speaker: [
 					{
@@ -1248,8 +1489,42 @@ export const schedules: Day[] = [
 			},
 			{
 				name: '-',
-				description: null,
+				description: '-',
 				start: '9:30AM',
+				end: '9:45AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '9:45AM',
+				end: '10:15AM',
+				speaker: [
+					{
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [''],
+						socials: {}
+					}
+				]
+			},
+			{
+				name: '-',
+				description: '-',
+				start: '10:15AM',
 				end: '10:30AM',
 				speaker: [
 					{
