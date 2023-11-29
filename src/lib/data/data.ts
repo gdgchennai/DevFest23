@@ -874,7 +874,7 @@ export const schedules: Day[] = [
 			},
 			{
 				name: 'Cloud Study Jams',
-				description: 'Jenister & Manikandan',
+				description: 'Jenisten & Manikandan',
 				start: '3:15PM',
 				end: '4:15PM',
 				speaker: [
@@ -1720,7 +1720,42 @@ export const sponsors: Sponsors[] = [
 ];
 
 // logo size 148 x 58
-export const community_partners: Sponsors[] = [
+export const partners: Sponsors[] = [
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083528/devfest/Google_For_Startups_1_cfzjiw.png',
+		company: 'Google For Startups',
+		website: 'https://startup.google.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083527/devfest/IITMR_etjpbc.png',
+		company: 'IITM Research Park',
+		website: 'https://respark.iitm.ac.in/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699291964/devfest23/logos/cnku4jieszvr9nazvfev.webp',
+		company: 'Konfhub',
+		website: 'https://konfhub.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083532/devfest/SHEROES_y8ilpw.png',
+		company: 'SHEROES',
+		website: 'https://sheroes.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083530/devfest/Mahila_Money_r2bumk.png',
+		company: 'Mahila Money',
+		website: 'https://mahila.money/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701080204/devfest/Github_g2yt7p.webp',
+		company: 'Github',
+		website: 'https://www.github.com/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699292249/devfest23/logos/tlxjery5yfkowizsxiwu.webp',
+		company: 'Jetbrains',
+		website: 'https://jetbrains.com/'
+	},
 	{
 		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699293611/devfest23/logos/t6gdyhhajis5bgnrpklf.webp',
 		company: 'GDG Cloud Chennai',
@@ -1787,57 +1822,13 @@ export const community_partners: Sponsors[] = [
 		website: 'https://www.linkedin.com/company/socialwinterofcode/'
 	},
 	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700844794/devfest/cloud_native_ipehy5.webp',
-		company: 'Cloud Native Computing Foundation',
-		website: 'https://www.cncf.io/'
-	},
-	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701080204/devfest/Github_g2yt7p.webp',
-		company: 'Github',
-		website: 'https://www.github.com/'
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1701249232/devfest23/logos/cnc_rc8me6.png',
+		company: 'Cloud Native Chennai',
+		website: 'https://community.cncf.io/chennai/'
 	},
 	{
 		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701084062/devfest/AZ_Conf_kroxfk.png',
 		company: 'Azure Conf',
 		website: 'https://azconf.dev/'
-	}
-];
-
-// logo size 148 x 58
-export const corporate_partners: Sponsors[] = [
-	{
-		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699291964/devfest23/logos/cnku4jieszvr9nazvfev.webp',
-		company: 'Konfhub',
-		website: 'https://konfhub.com/'
-	},
-	{
-		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699292249/devfest23/logos/tlxjery5yfkowizsxiwu.webp',
-		company: 'Jetbrains',
-		website: 'https://jetbrains.com/'
-	},
-	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083532/devfest/SHEROES_y8ilpw.png',
-		company: 'SHEROES',
-		website: 'https://sheroes.com/'
-	},
-	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083530/devfest/Mahila_Money_r2bumk.png',
-		company: 'Mahila Money',
-		website: 'https://mahila.money/'
-	},
-	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083528/devfest/Google_For_Startups_1_cfzjiw.png',
-		company: 'Google For Startups',
-		website: 'https://startup.google.com/'
-	},
-	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083527/devfest/IITMR_etjpbc.png',
-		company: 'IITM Research Park',
-		website: 'https://respark.iitm.ac.in/'
-	},
-	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701083525/devfest/SBI_k7gri5.png',
-		company: 'SBI',
-		website: 'https://www.linkedin.com/showcase/sbi-start-up-branch-chennai/?originalSubdomain=in'
 	}
 ];
