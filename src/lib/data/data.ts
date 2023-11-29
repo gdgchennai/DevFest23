@@ -1762,7 +1762,7 @@ export const community_partners: Sponsors[] = [
 		website: 'https://gdsc.community.dev/amrita-vishwa-vidyapeetham-chennai-campus-chennai/'
 	},
 	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700563755/Frame_11_3_danzd4.png',
+		logo: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1701243881/devfest23/logos/cv_zvrffx.png',
 		company: 'Code-Vipasana',
 		website: 'https://www.linkedin.com/company/code-vipassana/?originalSubdomain=in'
 	},
