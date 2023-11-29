@@ -282,21 +282,31 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'VC Panel - TBD',
-				description: null,
+				name: 'Panel - Code to Commerce: Empowering Developers with Business Acumen',
+				description: 'Ranjith & Swathi',
 				start: '3:15PM',
 				end: '4:25PM',
 				speaker: [
 					{
-					name: '',
-					image: '',
-					company: '',
-					position: '',
-					description:
-						'',
-					tags: [''],
-					socials: {}
-				}
+						name: 'Ranjith Melarkode',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1701260656/devfest23/speakers/RM_-_Photo_u6xelt.png',
+						company: 'PVR INOX',
+						position: 'Head of Data and Analytics',
+						description: 'A Versatile Data and Digital Leader, Ranjith is responsible in deriving Value from Data at PVR INOX Ltd; India\'s largest Cinema Exhibitor.Prior to this Ranjith held Digital leadership positions in Entertainment, Energy and Software industries.He has rich experience in creating and running - Digital businesses, Data and Digital driven experiences for consumers at scale.With a passion to create value from Data and Digital, Ranjith is now creating Data/ AI products and services to help Enterprises be Data driven.',
+						tags: ['Guest'],
+						socials: {
+							'linkedin': 'https://in.linkedin.com/in/ranjithmelarkode'
+						}
+					},
+					{
+						name: 'Swathi Dhamodaran',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1701260680/devfest23/speakers/SD_-_Photo_mvjow7.jpg',
+						company: 'Trifecta Growth Equity',
+						position: 'Investment Associate',
+						description: 'Swathi is an engineer at heart having graduated with a degree in CS from NIT-Trichy, after which she worked at Goldman Sachs as a Java Developer. Following that, she pivoted into venture capital investing for software deeptech and SaaS companies at Blume Ventures where she also built an extensive thesis on Developer tools. She currently works for a Growth stage fund, Trifecta capital in Bombay. ',
+						tags: ['Host'],
+						socials: {}
+					}
 				]
 			},
 			{
