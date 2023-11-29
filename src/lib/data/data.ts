@@ -879,12 +879,12 @@ export const schedules: Day[] = [
 				end: '4:15PM',
 				speaker: [
 					{
-						name: 'Jenister',
-						image: '',
-						company: '',
-						position: '',
-						description: '',
-						tags: [''],
+						name: 'Jenister Xavier',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1701239674/devfest23/speakers/IMG_7177_i2zcye.jpg',
+						company: 'FULL Creative',
+						position: 'Senior IT Analyst',
+						description: 'Jenisten is a passionate DevOps professional and is always eager to explore new technologies. He thrives in collaborative environments to tackle complex challenges together. Dedicated to lifelong learning, he continuously looks for ways to improve himself and is a generous mentor for his colleagues.',
+						tags: ['GDG Cloud Chennai', 'TFUG Chennai'],
 						socials: {}
 					},
 					{
@@ -893,7 +893,7 @@ export const schedules: Day[] = [
 						company: 'Tata Consultancy Services',
 						position: 'GCP Architect',
 						description: 'Manikandan is GCP Architect at TCS with approximately 14 years of experience in the IT industry, including around 5 years of professional experience with Google Cloud. He is proficient in designing, implementing, and troubleshooting Google Cloud Platform (GCP) solutions. He is Passionate about the cloud community and committed to helping others learn about and use Google Cloud Platform (GCP).',
-						tags: ['GDG Cloud Organizer'],
+						tags: ['GDG Cloud Chennai'],
 						socials: {}
 					}
 				]
@@ -1112,19 +1112,23 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: "IITM Research Park and the startup ecosystem",
-				description: 'Prof. Ashok Jhunjhunwala',
+				name: "A newbie's adventure in UX/UI Design",
+				description: 'Muthulakshmi Mahesh',
 				start: '2:00PM',
 				end: '2:35PM',
 				speaker: [
 					{
-						name: 'Prof. Ashok Jhunjhunwala',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1700913796/devfest23/speakers/ashok_pkpo6z.jpg',
-						company: 'IITM Research Park & IITM Incubation Cell',
-						position: 'President',
-						description: '',
-						tags: ['Ecosystem Partner'],
-						socials: {}
+						name: 'Muthulakshmi Mahesh',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699420330/devfest23/speakers/qo9rr2qjzdebyps8nhfs.webp',
+						company: 'Lollypop Design Studio',
+						position: 'UX Designer',
+						description: 'Muthulakshmi works as an UX designer at Lollypop design studio. She is the author of the book "UX Redefined" and she hosts a podcast called, "Pagecraft". She also mentors aspiring UX and UI designers.',
+						tags: [''],
+						socials: {
+							twitter: '',
+							linkedin: 'https://linkedin.com/in/mmuthulakshmi',
+							website: ''
+						}
 					}
 				]
 			},
@@ -1184,18 +1188,18 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: 'Community Partners Introduction',
-				description: null,
+				name: "Closing remarks",
+				description: 'Prof. Ashok Jhunjhunwala',
 				start: '3:55PM',
-				end: '4:25PM',
+				end: '4:30PM',
 				speaker: [
 					{
-						name: '',
-						image: '',
-						company: '',
-						position: '',
+						name: 'Prof. Ashok Jhunjhunwala',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1700913796/devfest23/speakers/ashok_pkpo6z.jpg',
+						company: 'IITM Research Park & IITM Incubation Cell',
+						position: 'President',
 						description: '',
-						tags: [''],
+						tags: ['Ecosystem Partner'],
 						socials: {}
 					}
 				]
@@ -1387,21 +1391,21 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: "A newbie's adventure in UX/UI Design",
-				description: 'Muthulakshmi Mahesh',
+				name: "Building Intelligent Chatbots using Google's MakerSuite & PaLM API Integration with Neo4j Database",
+				description: 'Bhavesh Bhatt',
 				start: '2:00PM',
 				end: '2:35PM',
 				speaker: [
 					{
-						name: 'Muthulakshmi Mahesh',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699420330/devfest23/speakers/qo9rr2qjzdebyps8nhfs.webp',
-						company: 'Lollypop Design Studio',
-						position: 'UX Designer',
-						description: 'Muthulakshmi works as an UX designer at Lollypop design studio. She is the author of the book "UX Redefined" and she hosts a podcast called, "Pagecraft". She also mentors aspiring UX and UI designers.',
-						tags: [''],
+						name: 'Bhavesh Bhatt',
+						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699374800/devfest23/speakers/vdfcfmd2nrw5qlffivxv.webp',
+						company: 'Colgate-Palmolive',
+						position: 'Senior Data Scientist',
+						description: 'Google Developer Expert in ML, GitHub Star, Neo4j Ninja, Gartner Data & Analytics Ambassador, 40 Under 40 Data Scientist',
+						tags: ['GDE'],
 						socials: {
-							twitter: '',
-							linkedin: 'https://linkedin.com/in/mmuthulakshmi',
+							twitter: 'https://twitter.com/_bhaveshbhatt',
+							linkedin: 'https://www.linkedin.com/in/bhattbhavesh91',
 							website: ''
 						}
 					}
@@ -1615,23 +1619,19 @@ export const schedules: Day[] = [
 				]
 			},
 			{
-				name: "Building Intelligent Chatbots using Google's MakerSuite & PaLM API Integration with Neo4j Database",
-				description: 'Bhavesh Bhatt',
+				name: '-',
+				description: '-',
 				start: '2:00PM',
 				end: '2:35PM',
 				speaker: [
 					{
-						name: 'Bhavesh Bhatt',
-						image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1699374800/devfest23/speakers/vdfcfmd2nrw5qlffivxv.webp',
-						company: 'Colgate-Palmolive',
-						position: 'Senior Data Scientist',
-						description: 'Google Developer Expert in ML, GitHub Star, Neo4j Ninja, Gartner Data & Analytics Ambassador, 40 Under 40 Data Scientist',
-						tags: ['GDE'],
-						socials: {
-							twitter: 'https://twitter.com/_bhaveshbhatt',
-							linkedin: 'https://www.linkedin.com/in/bhattbhavesh91',
-							website: ''
-						}
+						name: '',
+						image: '',
+						company: '',
+						position: '',
+						description: '',
+						tags: [],
+						socials: {}
 					}
 				]
 			},
