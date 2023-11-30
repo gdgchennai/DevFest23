@@ -1726,6 +1726,11 @@ export const sponsors: Sponsors[] = [
 		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701081605/devfest/Cyces-_2__rz6wsg.webp',
 		company: 'Cyces',
 		website: 'https://cyces.co/'
+	},
+	{
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1700846057/devfest/TechConative_1_ylpkhl.webp',
+		company: 'TechConative',
+		website: 'https://techconative.com/	'
 	}
 ];
 
