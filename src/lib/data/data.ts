@@ -1723,7 +1723,7 @@ export const sponsors: Sponsors[] = [
 		website: 'https://sagent.com/'
 	},
 	{
-		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701081605/devfest/Cyces-_2__rz6wsg.webp',
+		logo: 'https://res.cloudinary.com/dtqdoinxc/image/upload/v1701374478/devfest/Cyces_3_kner8z.png',
 		company: 'Cyces',
 		website: 'https://cyces.co/'
 	},
