@@ -1,6 +1,6 @@
-# DevFest Chennai 2023 Wesbite [WIP]
+# DevFest Chennai 2023 Wesbite
 
-![A screenshot of the DevFest Chennai 2022 website](static/home.webp 'DevFest Chennai 2023 website')
+![A screenshot of the DevFest Chennai 2022 website](static/home.png 'DevFest Chennai 2023 website')
 
 Website for DevFest Chennai 2023 by GDG Chennai
 
