@@ -3,7 +3,7 @@
 </script>
 
 <section id="hero-section" class="flex flex-col gap-6 h-auto items-center justify-center my-20">
-	<div
+	<!-- <div
 		class="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500"
 	>
 		<p>
@@ -17,7 +17,7 @@
 			><path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round" /></svg
 		>
 		<p>IIT–M Research Park, Chennai</p>
-	</div>
+	</div> -->
 	<h1
 		class="text-[min(12vw,90px)] leading-[1] tracking-tighter text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
@@ -30,12 +30,12 @@
 
 	<div class="flex flex-row gap-3">
 		<PillButton
-			label="Get your tickets"
+			label="Coming Soon!"
 			on:click={() => {
-				window.open('https://konfhub.com/devfest-2023-chennai', '_blank');
+				window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
 			}}
 		/>
-		<PillButton
+		<!-- <PillButton
 			label="Add to calendar"
 			action="secondary"
 			on:click={() => {
@@ -44,6 +44,6 @@
 					'_blank'
 				);
 			}}
-		/>
+		/> -->
 	</div>
 </section>

@@ -2,7 +2,7 @@
 	id="footer"
 	class="flex flex-col sm:flex-row items-center justify-between gap-3 w-full text-gray-500"
 >
-	<div class="w-full text-gray-500">© 2023 GDG Chennai. All rights reserved.</div>
+	<div class="w-full text-gray-500">© 2024 GDG Chennai. All rights reserved.</div>
 
 	<div class="flex flex-row gap-6 items-start justify-start w-fit">
 		<a id="twitter" href="//twitter.com/gdgchennai" target="_blank" rel="noopener noreferrer" class="hover:cursor-pointer">

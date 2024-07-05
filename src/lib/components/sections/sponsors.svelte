@@ -8,7 +8,7 @@
 	<h1
 		class="text-[min(12vw,80px)] leading-[1] tracking-tighter text-center max-w-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
-		Our Sponsors
+		Our Previous Sponsors
 	</h1>
 	<p class="text-center max-w-lg">Willing to support? Become Our Sponsor.</p>
 
@@ -26,7 +26,7 @@
 	<h1
 		class="text-[min(12vw,80px)] tracking-tighter text-center max-w-3xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
-		Our Partners
+		Our Previous Partners
 	</h1>
 	<p class="text-center max-w-lg">
 		Let's Make a Difference Together! Become Our Community Partner.
