@@ -24,6 +24,7 @@
 		action === 'tertiary' &&
 			'bg-transparent text-gray-500 hover:bg-gray-50 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-black shadow-none',
 		disabled && 'opacity-50 cursor-not-allowed',
+
 		classname
 	)}
 >
