@@ -1839,3 +1839,5 @@ export const partners: Sponsors[] = [
 		website: 'https://azconf.dev/'
 	}
 ];
+
+export const devfestLogo: string = "https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720430257/devfest24/logos/devfest-chennai_upi6vd.png"

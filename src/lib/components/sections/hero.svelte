@@ -1,8 +1,8 @@
-<section id="hero-section" class="flex flex-col gap-6 h-auto items-center justify-center my-20">
-	<!-- <div
+<section id="hero-section" class="flex flex-col gap-6 h-auto items-center justify-center my-10">
+	<div
 		class="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500"
 	>
-		<p>
+		<!-- <p>
 			<time datetime="01-12-2023">01</time>-<time datetime="02-12-2023">02 of Dec, 2023</time>
 		</p>
 
@@ -11,22 +11,8 @@
 			viewBox="0 0 6 6"
 			class="h-1.5 w-1.5 overflow-visible fill-current stroke-current hidden sm:block"
 			><path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round" /></svg
-		>
+		> -->
 		<p>IIT–M Research Park, Chennai</p>
-	</div> -->
-
-	<!-- DevFest 2024 is Coming Soon! -->
-
-	<div
-		class="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500"
-	>
-		<svg
-			aria-hidden="true"
-			viewBox="0 0 6 6"
-			class="h-1.5 w-1.5 overflow-visible fill-current stroke-current hidden sm:block"
-			><path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round" /></svg
-		>
-		<p>DevFest 2024 is Coming Soon!</p>
 	</div>
 
 	<h1
