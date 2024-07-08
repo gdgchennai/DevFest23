@@ -1,7 +1,3 @@
-<script>
-	import PillButton from '$lib/components/pill-button.svelte';
-</script>
-
 <section id="hero-section" class="flex flex-col gap-6 h-auto items-center justify-center my-20">
 	<!-- <div
 		class="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500"
