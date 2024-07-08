@@ -10,14 +10,14 @@
 	>
 		Our Previous Sponsors
 	</h1>
-	<p class="text-center max-w-lg">Willing to support? Become Our Sponsor.</p>
+	<!-- <p class="text-center max-w-lg">Willing to support? Become Our Sponsor.</p> -->
 
-	<PillButton
+	<!-- <PillButton
 		label="Sponsorship Prospectus"
 		on:click={() => {
 			window.open('https://devfest.gdgchennai.in/sponsorship.pdf', '_blank');
 		}}
-	/>
+	/> -->
 
 	<SponsorsCard {sponsors} />
 </section>
@@ -28,7 +28,7 @@
 	>
 		Our Previous Partners
 	</h1>
-	<p class="text-center max-w-lg">
+	<!-- <p class="text-center max-w-lg">
 		Let's Make a Difference Together! Become Our Community Partner.
 	</p>
 
@@ -37,7 +37,7 @@
 		on:click={() => {
 			window.open('https://forms.gle/FjJoCkiM1DSdcdLj8', '_blank');
 		}}
-	/>
+	/> -->
 
 	<SponsorsCard sponsors={partners} />
 </section>
