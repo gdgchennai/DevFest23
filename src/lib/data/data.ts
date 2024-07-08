@@ -2,52 +2,44 @@ import type { Day, Memory, Sponsors } from '$lib/types';
 
 export const memories: Memory[] = [
 	{
-		title: 'DevFest 2022 was so much fun.',
-		description:
-			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest22.gdgchennai.in/memories/1.webp'
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409888/devfest23/memories/RCS00023_p6bs08.webp'
 	},
 	{
-		title: 'DevFest 2022 was so much fun.',
-		description:
-			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest22.gdgchennai.in/memories/2.webp'
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409888/devfest23/memories/DSC06035_t2qnfe.webp'
 	},
 	{
-		title: 'DevFest 2022 was so much fun.',
-		description:
-			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest22.gdgchennai.in/memories/3.webp'
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409888/devfest23/memories/DSC06198_itslqf.webp'
 	},
 	{
-		title: 'DevFest 2022 was so much fun.',
-		description:
-			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest22.gdgchennai.in/memories/4.jpeg'
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409889/devfest23/memories/DSC06166_gflz8b.webp'
 	},
 	{
-		title: 'DevFest 2022 was so much fun.',
-		description:
-			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest22.gdgchennai.in/memories/5.webp'
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409888/devfest23/memories/IMG_0883.CR2_wbo0xc.webp'
 	},
 	{
-		title: 'DevFest 2022 was so much fun.',
-		description:
-			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest22.gdgchennai.in/memories/6.webp'
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409888/devfest23/memories/DSC06609_fu6bup.webp'
 	},
 	{
-		title: 'DevFest 2022 was so much fun.',
-		description:
-			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest22.gdgchennai.in/memories/7.webp'
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409887/devfest23/memories/RCS00050_rpvjxw.webp'
 	},
 	{
-		title: 'DevFest 2022 was so much fun.',
-		description:
-			'Last year, we had 1000+ attendees, 30+ speakers, 20+ sessions, 10+ sponsors, 5+ communities and 1 amazing event.',
-		image: 'https://devfest22.gdgchennai.in/memories/8.webp'
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409888/devfest23/memories/DSC06730_z4j9ra.webp'
+	},
+	{
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409886/devfest23/memories/IMG_1200.CR2_efufj1.webp'
+	},
+	{
+		title: 'DevFest 2023 was so much fun.',
+		image: 'https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720409887/devfest23/memories/IMG_0922.CR2_bhrqiu.webp'
 	}
 ];
 

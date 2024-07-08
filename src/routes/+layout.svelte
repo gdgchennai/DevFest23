@@ -5,7 +5,7 @@
 
 <main class="container mx-auto px-4 py-6">
 	<header class="w-full items-center justify-center flex">
-		<img src={logo} alt="gdgchennai logo" class="w-64" />
+		<img src={logo} alt="gdgchennai logo" class="w-36" />
 	</header>
 	<slot />
 </main>
