@@ -1841,3 +1841,5 @@ export const partners: Sponsors[] = [
 ];
 
 export const devfestLogo: string = "https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720445644/devfest24/web/banner/website-header_v6wzui.webp"
+
+export const gdgLogo: string = "https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720447162/devfest24/logos/gdg-chennai_b15nsr.webp"
