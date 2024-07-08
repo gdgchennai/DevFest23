@@ -16,18 +16,18 @@
 	</div>
 
 	<h1
-		class="text-[min(12vw,90px)] leading-[1] tracking-tighter text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
+		class="text-[min(12vw,90px)] leading-[2] tracking-tighter text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
-		Chennai’s most awaited tech conference
+		Coming Soon!
 	</h1>
 	<p class="text-center max-w-lg">
 		Come learn, network and celebrate with the Google Developer Ecosystem while also learning to
-		hack on Android, Chrome, and Web.
+		hack on Android, Chrome, and the Web.
 	</p>
 
 	<div class="flex flex-row gap-3">
 		<!-- <PillButton
-			label="Join the Community!"
+			label="Join the Conversation!"
 			on:click={() => {
 				window.open('http://bit.ly/gdgchennai-discord', '_blank');
 			}}
