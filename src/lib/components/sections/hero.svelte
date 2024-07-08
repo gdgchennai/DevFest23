@@ -50,7 +50,7 @@
 		<button
 			class="relative inline-flex h-12 text-lg overflow-hidden rounded-full p-[1.5px] focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50"
 			on:click={() => {
-				window.open('https://konfhub.com/devfest-2023-chennai', '_blank');
+				window.open('http://bit.ly/gdgchennai-discord', '_blank');
 			}}
 		>
 			<span
