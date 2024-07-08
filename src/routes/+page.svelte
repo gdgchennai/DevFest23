@@ -36,8 +36,8 @@
 	class="flex-col flex w-full place-items-center min-h-screen items-center justify-center gap-32"
 >
 	<Hero />
-	<WhyAttend />
-	<SpeakerLineup />
+	<!-- <WhyAttend /> -->
+	<!-- <SpeakerLineup /> -->
 	<Sponsors />
 	<Memories />
 	<Footer />
@@ -46,5 +46,6 @@
 <style lang="postcss">
 	:global(html) {
 		background-color: theme(colors.white);
+    font-family: "Google Sans";
 	}
 </style>

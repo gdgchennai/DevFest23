@@ -1,12 +1,8 @@
-<script>
-	import PillButton from '$lib/components/pill-button.svelte';
-</script>
-
-<section id="hero-section" class="flex flex-col gap-6 h-auto items-center justify-center my-20">
-	<div
+<section id="hero-section" class="flex flex-col gap-6 h-auto items-center justify-center my-10">
+	<!--<div
 		class="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500"
 	>
-		<p>
+		 <p>
 			<time datetime="01-12-2023">01</time>-<time datetime="02-12-2023">02 of Dec, 2023</time>
 		</p>
 
@@ -15,27 +11,45 @@
 			viewBox="0 0 6 6"
 			class="h-1.5 w-1.5 overflow-visible fill-current stroke-current hidden sm:block"
 			><path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round" /></svg
-		>
+		
 		<p>IIT–M Research Park, Chennai</p>
-	</div>
+		
+	</div>> -->
+
 	<h1
-		class="text-[min(12vw,90px)] leading-[1] tracking-tighter text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
+		class="text-[min(12vw,90px)] leading-[2] tracking-tight text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
-		Chennai’s most awaited tech conference
+		Coming Soon!
 	</h1>
 	<p class="text-center max-w-lg">
 		Come learn, network and celebrate with the Google Developer Ecosystem while also learning to
-		hack on Android, Chrome, and Web.
+		hack on Android, Chrome, and the Web.
 	</p>
 
 	<div class="flex flex-row gap-3">
-		<PillButton
-			label="Get your tickets"
+		<!-- <PillButton
+			label="Join the Conversation!"
 			on:click={() => {
-				window.open('https://konfhub.com/devfest-2023-chennai', '_blank');
+				window.open('http://bit.ly/gdgchennai-discord', '_blank');
 			}}
-		/>
-		<PillButton
+		/> -->
+
+		<button
+			class="relative inline-flex h-12 text-lg overflow-hidden rounded-full p-[1.5px] focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50"
+			on:click={() => {
+				window.open('http://bit.ly/gdgchennai-discord', '_blank');
+			}}
+		>
+			<span
+				class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+			/>
+			<span
+				class="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-gray-950 px-8 py-1 text-lg font-medium text-gray-50 backdrop-blur-3xl"
+			>
+				Join the Conversation!
+			</span>
+		</button>
+		<!-- <PillButton
 			label="Add to calendar"
 			action="secondary"
 			on:click={() => {
@@ -44,6 +58,6 @@
 					'_blank'
 				);
 			}}
-		/>
+		/> -->
 	</div>
 </section>

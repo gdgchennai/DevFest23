@@ -2,6 +2,9 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
+		fontFamily: {
+			'google': ['"Google Sans"']
+		},
 		extend: {
 			animation: {
 				'text-slide-2': 'text-slide-2 5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
