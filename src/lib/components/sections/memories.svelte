@@ -5,7 +5,7 @@
 
 <section id="memories" class="flex flex-col gap-6 place-items-center h-auto">
 	<h1
-		class="text-[min(12vw,80px)] leading-[1] tracking-tighter text-center max-w-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
+		class="text-[min(12vw,80px)] leading-[1] tracking-tight text-center max-w-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
 		DevFest 2023 was so much fun.
 	</h1>

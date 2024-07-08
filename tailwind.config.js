@@ -2,10 +2,10 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
+		fontFamily: {
+			'google': ['"Google Sans"']
+		},
 		extend: {
-			fontFamily: {
-				'google': ['"Google Sans"']
-		        },
 			animation: {
 				'text-slide-2': 'text-slide-2 5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
 				'text-slide-3': 'text-slide-3 7.5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
