@@ -10,14 +10,14 @@
 	>
 		Our Previous Sponsors
 	</h1>
-	<p class="text-center max-w-lg">Willing to support? Become Our Sponsor.</p>
+	<!-- <p class="text-center max-w-lg">Willing to support? Become Our Sponsor.</p> -->
 
-	<PillButton
+	<!-- <PillButton
 		label="Sponsorship Prospectus"
 		on:click={() => {
-			window.open('https://lu.ma/event/evt-cis0oNIyJV7KYUI', '_blank');
+			window.open('https://devfest.gdgchennai.in/sponsorship.pdf', '_blank');
 		}}
-	/>
+	/> -->
 
 	<SponsorsCard {sponsors} />
 </section>
