@@ -5,6 +5,7 @@
 	import { clsx } from '$lib/utils';
 	import type { Speakers } from '$lib/types';
 	import SpeakerCard from './speaker-card.svelte';
+	import PillButton from '$lib/components/pill-button.svelte';
 
 	let showModal = false;
 	let tabs = ['Day 1', 'Day 2'];
@@ -29,14 +30,21 @@
 	<h1
 		class="text-[min(12vw,80px)] leading-[1] tracking-tighter text-center max-w-xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
-		Agenda & Speakers
+		Call for Speakers
 	</h1>
 	<p class="text-center max-w-lg">
-		Come. Learn, Network and Celebrate with Google Developer Groups and Google Developer Experts,
-		learn to hack on Android, Chrome and Web while you are at it.
+		Got a groundbreaking idea or tech innovation to share? We got just the platform for you to
+		join us as a speaker and make an impact!
 	</p>
 
-	<div id="tabs" class="sticky top-8 left-0 border border-gray-100 w-fit rounded-full bg-gray-100">
+	<PillButton
+		label="Submit your proposal"
+		on:click={() => {
+			window.open('http://bit.ly/speakers-assemble', '_blank');
+		}}
+	/>
+
+	<!-- <div id="tabs" class="sticky top-8 left-0 border border-gray-100 w-fit rounded-full bg-gray-100">
 		{#each tabs as item}
 			<button
 				class={clsx(
@@ -72,5 +80,5 @@
 				{/each}
 			</div>
 		{/if}
-	</div>
+	</div> -->
 </section>

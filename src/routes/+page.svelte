@@ -37,7 +37,7 @@
 >
 	<Hero />
 	<!-- <WhyAttend /> -->
-	<!-- <SpeakerLineup /> -->
+	<SpeakerLineup />
 	<Sponsors />
 	<Memories />
 	<Footer />
