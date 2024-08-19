@@ -17,7 +17,7 @@
 	</div>
 
 	<h1
-		class="text-[min(12vw,90px)] leading-[2] tracking-tight text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
+		class="text-[min(12vw,90px)] leading-[1] tracking-tighter text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
 	>
 		Chennai's favorite tech conference
 	</h1>
