@@ -1,26 +1,21 @@
 <section id="hero-section" class="flex flex-col gap-6 h-auto items-center justify-center my-10">
-	<!--<div
+	<div
 		class="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500"
 	>
 		 <p>
-			<time datetime="01-12-2023">01</time>-<time datetime="02-12-2023">02 of Dec, 2023</time>
+			<time datetime="05-10-2024">01</time>
 		</p>
 
 		<svg
 			aria-hidden="true"
 			viewBox="0 0 6 6"
 			class="h-1.5 w-1.5 overflow-visible fill-current stroke-current hidden sm:block"
-			><path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round" /></svg
+			><path d="M3 0L6 3L3 6L0 3Z" stroke-width="2" stroke-linejoin="round" /></svg>
 		
 		<p>IIT–M Research Park, Chennai</p>
 		
-	</div>> -->
+	</div>
 
-	<h1
-		class="text-[min(12vw,90px)] leading-[2] tracking-tight text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
-	>
-		Coming Soon!
-	</h1>
 	<p class="text-center max-w-lg">
 		Come learn, network and celebrate with the Google Developer Ecosystem while also learning to
 		hack on Android, Chrome, and the Web.
