@@ -1844,4 +1844,4 @@ export const devfestLogo: string = "https://res.cloudinary.com/ddnnw8qn5/image/u
 
 export const gdgLogo: string = "https://res.cloudinary.com/ddnnw8qn5/image/upload/v1720447162/devfest24/logos/gdg-chennai_b15nsr.webp"
 
-export const sponsorDocUrl: string = "https://pub-ea96c8a026f240e9a1b741d88941bd26.r2.dev/sponsorship.pdf"
+export const sponsorDocUrl: string = "https://static.gdgchennai.in/sponsorship.pdf"
