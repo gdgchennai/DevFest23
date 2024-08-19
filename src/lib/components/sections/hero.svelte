@@ -3,7 +3,7 @@
 		class="mx-auto flex flex-col sm:flex-row items-center gap-4 px-4 mt-1 font-mono text-lg text-gray-500"
 	>
 		 <p>
-			<time datetime="05-10-2024">01</time>
+			<time datetime="05-10-2024">5th October, 2024</time>
 		</p>
 
 		<svg
@@ -15,6 +15,12 @@
 		<p>IIT–M Research Park, Chennai</p>
 		
 	</div>
+
+	<h1
+		class="text-[min(12vw,90px)] leading-[2] tracking-tight text-center max-w-4xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700"
+	>
+		Chennai's favorite tech conference
+	</h1>
 
 	<p class="text-center max-w-lg">
 		Come learn, network and celebrate with the Google Developer Ecosystem while also learning to
